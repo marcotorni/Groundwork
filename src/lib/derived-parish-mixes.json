@@ -1,0 +1,4111 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-18T18:57:37.733Z",
+    "source_pois": "public/data/greater-lisbon-pois.geojson",
+    "source_parishes": "public/data/greater-lisbon-parishes.geojson",
+    "normalisation": "√area + smooth absorption",
+    "parish_count": 64
+  },
+  "mixes": {
+    "lisboa/ajuda": {
+      "residential": 0.58,
+      "office": 0.05,
+      "student": 0.21,
+      "tourist": 0.14,
+      "nightlife": 0.01
+    },
+    "lisboa/alcantara": {
+      "residential": 0.54,
+      "office": 0.17,
+      "student": 0.1,
+      "tourist": 0.16,
+      "nightlife": 0.02
+    },
+    "lisboa/alvalade": {
+      "residential": 0.31,
+      "office": 0.21,
+      "student": 0.2,
+      "tourist": 0.25,
+      "nightlife": 0.03
+    },
+    "lisboa/areeiro": {
+      "residential": 0.47,
+      "office": 0.24,
+      "student": 0.09,
+      "tourist": 0.17,
+      "nightlife": 0.03
+    },
+    "lisboa/arroios": {
+      "residential": 0.17,
+      "office": 0.17,
+      "student": 0.15,
+      "tourist": 0.48,
+      "nightlife": 0.04
+    },
+    "lisboa/avenidas novas": {
+      "residential": 0.18,
+      "office": 0.27,
+      "student": 0.11,
+      "tourist": 0.42,
+      "nightlife": 0.01
+    },
+    "lisboa/beato": {
+      "residential": 0.83,
+      "office": 0.1,
+      "student": 0,
+      "tourist": 0.05,
+      "nightlife": 0.02
+    },
+    "lisboa/belem": {
+      "residential": 0.56,
+      "office": 0.18,
+      "student": 0.06,
+      "tourist": 0.19,
+      "nightlife": 0.01
+    },
+    "lisboa/benfica": {
+      "residential": 0.73,
+      "office": 0.13,
+      "student": 0.08,
+      "tourist": 0.05,
+      "nightlife": 0.01
+    },
+    "lisboa/campo de ourique": {
+      "residential": 0.46,
+      "office": 0.23,
+      "student": 0.05,
+      "tourist": 0.23,
+      "nightlife": 0.03
+    },
+    "lisboa/campolide": {
+      "residential": 0.46,
+      "office": 0.28,
+      "student": 0.1,
+      "tourist": 0.17,
+      "nightlife": 0
+    },
+    "lisboa/carnide": {
+      "residential": 0.72,
+      "office": 0.16,
+      "student": 0.04,
+      "tourist": 0.07,
+      "nightlife": 0
+    },
+    "lisboa/estrela": {
+      "residential": 0.32,
+      "office": 0.23,
+      "student": 0.06,
+      "tourist": 0.29,
+      "nightlife": 0.11
+    },
+    "lisboa/lumiar": {
+      "residential": 0.69,
+      "office": 0.15,
+      "student": 0.09,
+      "tourist": 0.06,
+      "nightlife": 0.01
+    },
+    "lisboa/marvila": {
+      "residential": 0.75,
+      "office": 0.12,
+      "student": 0.03,
+      "tourist": 0.07,
+      "nightlife": 0.03
+    },
+    "lisboa/misericordia": {
+      "residential": 0.18,
+      "office": 0.1,
+      "student": 0.02,
+      "tourist": 0.47,
+      "nightlife": 0.23
+    },
+    "lisboa/olivais": {
+      "residential": 0.79,
+      "office": 0.1,
+      "student": 0.03,
+      "tourist": 0.07,
+      "nightlife": 0
+    },
+    "lisboa/parque das nacoes": {
+      "residential": 0.38,
+      "office": 0.37,
+      "student": 0.02,
+      "tourist": 0.21,
+      "nightlife": 0.01
+    },
+    "lisboa/penha de franca": {
+      "residential": 0.44,
+      "office": 0.07,
+      "student": 0,
+      "tourist": 0.47,
+      "nightlife": 0.02
+    },
+    "lisboa/santa clara": {
+      "residential": 0.94,
+      "office": 0.03,
+      "student": 0.01,
+      "tourist": 0.02,
+      "nightlife": 0
+    },
+    "lisboa/santa maria maior": {
+      "residential": 0.16,
+      "office": 0.15,
+      "student": 0.01,
+      "tourist": 0.64,
+      "nightlife": 0.04
+    },
+    "lisboa/santo antonio": {
+      "residential": 0.15,
+      "office": 0.28,
+      "student": 0.02,
+      "tourist": 0.5,
+      "nightlife": 0.05
+    },
+    "lisboa/sao domingos de benfica": {
+      "residential": 0.36,
+      "office": 0.2,
+      "student": 0.03,
+      "tourist": 0.41,
+      "nightlife": 0
+    },
+    "lisboa/sao vicente": {
+      "residential": 0.54,
+      "office": 0.07,
+      "student": 0,
+      "tourist": 0.32,
+      "nightlife": 0.06
+    },
+    "amadora/aguas livres": {
+      "residential": 0.86,
+      "office": 0.1,
+      "student": 0.01,
+      "tourist": 0.02,
+      "nightlife": 0
+    },
+    "amadora/alfragide": {
+      "residential": 0.76,
+      "office": 0.19,
+      "student": 0.01,
+      "tourist": 0.05,
+      "nightlife": 0
+    },
+    "amadora/encosta do sol": {
+      "residential": 0.96,
+      "office": 0.01,
+      "student": 0.01,
+      "tourist": 0.02,
+      "nightlife": 0
+    },
+    "amadora/falagueira-venda nova": {
+      "residential": 0.92,
+      "office": 0.05,
+      "student": 0.01,
+      "tourist": 0.03,
+      "nightlife": 0
+    },
+    "amadora/mina de agua": {
+      "residential": 0.92,
+      "office": 0.04,
+      "student": 0.03,
+      "tourist": 0.01,
+      "nightlife": 0
+    },
+    "amadora/venteira": {
+      "residential": 0.79,
+      "office": 0.08,
+      "student": 0.1,
+      "tourist": 0.03,
+      "nightlife": 0
+    },
+    "odivelas/odivelas": {
+      "residential": 0.89,
+      "office": 0.07,
+      "student": 0.02,
+      "tourist": 0.01,
+      "nightlife": 0.01
+    },
+    "odivelas/uniao das freguesias de pontinha e famoes": {
+      "residential": 0.98,
+      "office": 0.01,
+      "student": 0,
+      "tourist": 0,
+      "nightlife": 0
+    },
+    "odivelas/uniao das freguesias de povoa de santo adriao e olival basto": {
+      "residential": 0.95,
+      "office": 0.01,
+      "student": 0,
+      "tourist": 0.03,
+      "nightlife": 0
+    },
+    "odivelas/uniao das freguesias de ramada e canecas": {
+      "residential": 0.92,
+      "office": 0.05,
+      "student": 0.01,
+      "tourist": 0.02,
+      "nightlife": 0
+    },
+    "loures/bucelas": {
+      "residential": 1,
+      "office": 0,
+      "student": 0,
+      "tourist": 0,
+      "nightlife": 0
+    },
+    "loures/fanhoes": {
+      "residential": 0.97,
+      "office": 0.01,
+      "student": 0,
+      "tourist": 0.02,
+      "nightlife": 0
+    },
+    "loures/loures": {
+      "residential": 0.94,
+      "office": 0.03,
+      "student": 0.02,
+      "tourist": 0.01,
+      "nightlife": 0
+    },
+    "loures/lousa": {
+      "residential": 0.99,
+      "office": 0,
+      "student": 0,
+      "tourist": 0.01,
+      "nightlife": 0
+    },
+    "loures/uniao das freguesias de camarate unhos e apelacao": {
+      "residential": 0.96,
+      "office": 0.02,
+      "student": 0,
+      "tourist": 0.01,
+      "nightlife": 0.01
+    },
+    "loures/uniao das freguesias de moscavide e portela": {
+      "residential": 0.83,
+      "office": 0.08,
+      "student": 0.06,
+      "tourist": 0.03,
+      "nightlife": 0
+    },
+    "loures/uniao das freguesias de sacavem e prior velho": {
+      "residential": 0.83,
+      "office": 0.1,
+      "student": 0,
+      "tourist": 0.05,
+      "nightlife": 0.01
+    },
+    "loures/uniao das freguesias de santa iria de azoia sao joao da talha e bobadela": {
+      "residential": 0.92,
+      "office": 0.03,
+      "student": 0.02,
+      "tourist": 0.02,
+      "nightlife": 0.01
+    },
+    "loures/uniao das freguesias de santo antao e sao juliao do tojal": {
+      "residential": 0.97,
+      "office": 0,
+      "student": 0,
+      "tourist": 0.02,
+      "nightlife": 0
+    },
+    "loures/uniao das freguesias de santo antonio dos cavaleiros e frielas": {
+      "residential": 0.93,
+      "office": 0.06,
+      "student": 0,
+      "tourist": 0.01,
+      "nightlife": 0
+    },
+    "oeiras/barcarena": {
+      "residential": 0.85,
+      "office": 0.02,
+      "student": 0.08,
+      "tourist": 0.05,
+      "nightlife": 0
+    },
+    "oeiras/porto salvo": {
+      "residential": 0.77,
+      "office": 0.15,
+      "student": 0.03,
+      "tourist": 0.04,
+      "nightlife": 0
+    },
+    "oeiras/uniao das freguesias de alges linda-a-velha e cruz quebrada-dafundo": {
+      "residential": 0.78,
+      "office": 0.1,
+      "student": 0.06,
+      "tourist": 0.05,
+      "nightlife": 0
+    },
+    "oeiras/uniao das freguesias de carnaxide e queijas": {
+      "residential": 0.84,
+      "office": 0.1,
+      "student": 0.01,
+      "tourist": 0.04,
+      "nightlife": 0
+    },
+    "oeiras/uniao das freguesias de oeiras e sao juliao da barra paco de arcos e caxias": {
+      "residential": 0.79,
+      "office": 0.09,
+      "student": 0.03,
+      "tourist": 0.08,
+      "nightlife": 0.01
+    },
+    "cascais/alcabideche": {
+      "residential": 0.88,
+      "office": 0.05,
+      "student": 0.02,
+      "tourist": 0.05,
+      "nightlife": 0.01
+    },
+    "cascais/sao domingos de rana": {
+      "residential": 0.86,
+      "office": 0.1,
+      "student": 0.02,
+      "tourist": 0.01,
+      "nightlife": 0
+    },
+    "cascais/uniao das freguesias de carcavelos e parede": {
+      "residential": 0.64,
+      "office": 0.23,
+      "student": 0.03,
+      "tourist": 0.08,
+      "nightlife": 0.03
+    },
+    "cascais/uniao das freguesias de cascais e estoril": {
+      "residential": 0.5,
+      "office": 0.13,
+      "student": 0.04,
+      "tourist": 0.3,
+      "nightlife": 0.04
+    },
+    "almada/costa da caparica": {
+      "residential": 0.66,
+      "office": 0.08,
+      "student": 0,
+      "tourist": 0.22,
+      "nightlife": 0.04
+    },
+    "almada/uniao das freguesias de almada cova da piedade pragal e cacilhas": {
+      "residential": 0.34,
+      "office": 0.34,
+      "student": 0.08,
+      "tourist": 0.18,
+      "nightlife": 0.07
+    },
+    "almada/uniao das freguesias de caparica e trafaria": {
+      "residential": 0.8,
+      "office": 0.04,
+      "student": 0.07,
+      "tourist": 0.08,
+      "nightlife": 0.01
+    },
+    "almada/uniao das freguesias de charneca de caparica e sobreda": {
+      "residential": 0.8,
+      "office": 0.09,
+      "student": 0.04,
+      "tourist": 0.06,
+      "nightlife": 0
+    },
+    "almada/uniao das freguesias de laranjeiro e feijo": {
+      "residential": 0.7,
+      "office": 0.24,
+      "student": 0.03,
+      "tourist": 0.01,
+      "nightlife": 0.02
+    },
+    "seixal/amora": {
+      "residential": 0.92,
+      "office": 0.03,
+      "student": 0.02,
+      "tourist": 0.02,
+      "nightlife": 0.01
+    },
+    "seixal/arrentela": {
+      "residential": 0.95,
+      "office": 0.01,
+      "student": 0.01,
+      "tourist": 0.03,
+      "nightlife": 0
+    },
+    "seixal/corroios": {
+      "residential": 0.91,
+      "office": 0.06,
+      "student": 0.01,
+      "tourist": 0.01,
+      "nightlife": 0.01
+    },
+    "seixal/fernao ferro": {
+      "residential": 0.97,
+      "office": 0.01,
+      "student": 0,
+      "tourist": 0.02,
+      "nightlife": 0
+    },
+    "seixal/paio pires": {
+      "residential": 0.91,
+      "office": 0.08,
+      "student": 0,
+      "tourist": 0,
+      "nightlife": 0
+    },
+    "seixal/seixal": {
+      "residential": 0.88,
+      "office": 0.02,
+      "student": 0.04,
+      "tourist": 0.03,
+      "nightlife": 0.02
+    }
+  },
+  "stats": {
+    "lisboa/ajuda": {
+      "name": "Ajuda",
+      "municipality": "lisboa",
+      "area_km2": 2.8766,
+      "population_2021": 14704,
+      "density_per_km2": 5112,
+      "poi_counts": {
+        "school": 12,
+        "university": 6,
+        "office": 12,
+        "hospital": 3,
+        "hotel_proper": 2,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 18,
+        "tourist_strong": 9,
+        "tourist_weak": 35,
+        "bar_pub": 3,
+        "nightclub": 0,
+        "cafe": 41
+      },
+      "densities": {
+        "cafe_per_km2": 14.25,
+        "office_per_km2": 4.17,
+        "hotel_per_km2": 0.7,
+        "tourist_per_km2": 15.3,
+        "bar_pub_per_km2": 1.04,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 2.09
+      }
+    },
+    "lisboa/alcantara": {
+      "name": "Alcântara",
+      "municipality": "lisboa",
+      "area_km2": 5.0748,
+      "population_2021": 13943,
+      "density_per_km2": 2747,
+      "poi_counts": {
+        "school": 14,
+        "university": 4,
+        "office": 55,
+        "hospital": 5,
+        "hotel_proper": 8,
+        "short_let": 2,
+        "transit_major": 0,
+        "transit_minor": 19,
+        "tourist_strong": 10,
+        "tourist_weak": 26,
+        "bar_pub": 5,
+        "nightclub": 1,
+        "cafe": 40
+      },
+      "densities": {
+        "cafe_per_km2": 7.88,
+        "office_per_km2": 10.84,
+        "hotel_per_km2": 1.58,
+        "tourist_per_km2": 7.09,
+        "bar_pub_per_km2": 1.18,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0.79
+      }
+    },
+    "lisboa/alvalade": {
+      "name": "Alvalade",
+      "municipality": "lisboa",
+      "area_km2": 5.3417,
+      "population_2021": 31813,
+      "density_per_km2": 5956,
+      "poi_counts": {
+        "school": 45,
+        "university": 11,
+        "office": 95,
+        "hospital": 17,
+        "hotel_proper": 35,
+        "short_let": 1,
+        "transit_major": 1,
+        "transit_minor": 1,
+        "tourist_strong": 3,
+        "tourist_weak": 32,
+        "bar_pub": 14,
+        "nightclub": 2,
+        "cafe": 59
+      },
+      "densities": {
+        "cafe_per_km2": 11.05,
+        "office_per_km2": 17.78,
+        "hotel_per_km2": 6.55,
+        "tourist_per_km2": 6.55,
+        "bar_pub_per_km2": 3,
+        "transit_major_per_km2": 0.19,
+        "university_per_km2": 2.06
+      }
+    },
+    "lisboa/areeiro": {
+      "name": "Areeiro",
+      "municipality": "lisboa",
+      "area_km2": 1.7189,
+      "population_2021": 20131,
+      "density_per_km2": 11712,
+      "poi_counts": {
+        "school": 16,
+        "university": 2,
+        "office": 49,
+        "hospital": 5,
+        "hotel_proper": 7,
+        "short_let": 1,
+        "transit_major": 1,
+        "transit_minor": 0,
+        "tourist_strong": 4,
+        "tourist_weak": 15,
+        "bar_pub": 5,
+        "nightclub": 1,
+        "cafe": 47
+      },
+      "densities": {
+        "cafe_per_km2": 27.34,
+        "office_per_km2": 28.51,
+        "hotel_per_km2": 4.07,
+        "tourist_per_km2": 11.05,
+        "bar_pub_per_km2": 3.49,
+        "transit_major_per_km2": 0.58,
+        "university_per_km2": 1.16
+      }
+    },
+    "lisboa/arroios": {
+      "name": "Arroios",
+      "municipality": "lisboa",
+      "area_km2": 2.1278,
+      "population_2021": 31485,
+      "density_per_km2": 14797,
+      "poi_counts": {
+        "school": 22,
+        "university": 10,
+        "office": 93,
+        "hospital": 11,
+        "hotel_proper": 78,
+        "short_let": 8,
+        "transit_major": 1,
+        "transit_minor": 8,
+        "tourist_strong": 9,
+        "tourist_weak": 43,
+        "bar_pub": 28,
+        "nightclub": 1,
+        "cafe": 104
+      },
+      "densities": {
+        "cafe_per_km2": 48.88,
+        "office_per_km2": 43.71,
+        "hotel_per_km2": 36.66,
+        "tourist_per_km2": 24.44,
+        "bar_pub_per_km2": 13.63,
+        "transit_major_per_km2": 0.47,
+        "university_per_km2": 4.7
+      }
+    },
+    "lisboa/avenidas novas": {
+      "name": "Avenidas Novas",
+      "municipality": "lisboa",
+      "area_km2": 2.9945,
+      "population_2021": 21318,
+      "density_per_km2": 7119,
+      "poi_counts": {
+        "school": 23,
+        "university": 8,
+        "office": 160,
+        "hospital": 26,
+        "hotel_proper": 72,
+        "short_let": 7,
+        "transit_major": 5,
+        "transit_minor": 1,
+        "tourist_strong": 9,
+        "tourist_weak": 27,
+        "bar_pub": 9,
+        "nightclub": 0,
+        "cafe": 85
+      },
+      "densities": {
+        "cafe_per_km2": 28.39,
+        "office_per_km2": 53.43,
+        "hotel_per_km2": 24.04,
+        "tourist_per_km2": 12.02,
+        "bar_pub_per_km2": 3.01,
+        "transit_major_per_km2": 1.67,
+        "university_per_km2": 2.67
+      }
+    },
+    "lisboa/beato": {
+      "name": "Beato",
+      "municipality": "lisboa",
+      "area_km2": 2.4838,
+      "population_2021": 12773,
+      "density_per_km2": 5143,
+      "poi_counts": {
+        "school": 10,
+        "university": 0,
+        "office": 17,
+        "hospital": 3,
+        "hotel_proper": 2,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 1,
+        "tourist_weak": 5,
+        "bar_pub": 4,
+        "nightclub": 0,
+        "cafe": 13
+      },
+      "densities": {
+        "cafe_per_km2": 5.23,
+        "office_per_km2": 6.84,
+        "hotel_per_km2": 0.81,
+        "tourist_per_km2": 2.42,
+        "bar_pub_per_km2": 1.61,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0
+      }
+    },
+    "lisboa/belem": {
+      "name": "Belém",
+      "municipality": "lisboa",
+      "area_km2": 10.4276,
+      "population_2021": 16528,
+      "density_per_km2": 1585,
+      "poi_counts": {
+        "school": 31,
+        "university": 3,
+        "office": 78,
+        "hospital": 8,
+        "hotel_proper": 6,
+        "short_let": 0,
+        "transit_major": 1,
+        "transit_minor": 17,
+        "tourist_strong": 25,
+        "tourist_weak": 45,
+        "bar_pub": 8,
+        "nightclub": 0,
+        "cafe": 45
+      },
+      "densities": {
+        "cafe_per_km2": 4.32,
+        "office_per_km2": 7.48,
+        "hotel_per_km2": 0.58,
+        "tourist_per_km2": 6.71,
+        "bar_pub_per_km2": 0.77,
+        "transit_major_per_km2": 0.1,
+        "university_per_km2": 0.29
+      }
+    },
+    "lisboa/benfica": {
+      "name": "Benfica",
+      "municipality": "lisboa",
+      "area_km2": 8.0249,
+      "population_2021": 33720,
+      "density_per_km2": 4202,
+      "poi_counts": {
+        "school": 22,
+        "university": 3,
+        "office": 43,
+        "hospital": 7,
+        "hotel_proper": 1,
+        "short_let": 0,
+        "transit_major": 1,
+        "transit_minor": 0,
+        "tourist_strong": 4,
+        "tourist_weak": 44,
+        "bar_pub": 4,
+        "nightclub": 0,
+        "cafe": 27
+      },
+      "densities": {
+        "cafe_per_km2": 3.36,
+        "office_per_km2": 5.36,
+        "hotel_per_km2": 0.12,
+        "tourist_per_km2": 5.98,
+        "bar_pub_per_km2": 0.5,
+        "transit_major_per_km2": 0.12,
+        "university_per_km2": 0.37
+      }
+    },
+    "lisboa/campo de ourique": {
+      "name": "Campo de Ourique",
+      "municipality": "lisboa",
+      "area_km2": 1.6514,
+      "population_2021": 22082,
+      "density_per_km2": 13372,
+      "poi_counts": {
+        "school": 20,
+        "university": 1,
+        "office": 46,
+        "hospital": 6,
+        "hotel_proper": 9,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 6,
+        "tourist_strong": 7,
+        "tourist_weak": 27,
+        "bar_pub": 9,
+        "nightclub": 0,
+        "cafe": 40
+      },
+      "densities": {
+        "cafe_per_km2": 24.22,
+        "office_per_km2": 27.86,
+        "hotel_per_km2": 5.45,
+        "tourist_per_km2": 20.59,
+        "bar_pub_per_km2": 5.45,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0.61
+      }
+    },
+    "lisboa/campolide": {
+      "name": "Campolide",
+      "municipality": "lisboa",
+      "area_km2": 2.7743,
+      "population_2021": 15460,
+      "density_per_km2": 5573,
+      "poi_counts": {
+        "school": 11,
+        "university": 3,
+        "office": 73,
+        "hospital": 7,
+        "hotel_proper": 10,
+        "short_let": 1,
+        "transit_major": 1,
+        "transit_minor": 5,
+        "tourist_strong": 4,
+        "tourist_weak": 24,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 30
+      },
+      "densities": {
+        "cafe_per_km2": 10.81,
+        "office_per_km2": 26.31,
+        "hotel_per_km2": 3.6,
+        "tourist_per_km2": 10.09,
+        "bar_pub_per_km2": 0.36,
+        "transit_major_per_km2": 0.36,
+        "university_per_km2": 1.08
+      }
+    },
+    "lisboa/carnide": {
+      "name": "Carnide",
+      "municipality": "lisboa",
+      "area_km2": 3.6891,
+      "population_2021": 19218,
+      "density_per_km2": 5209,
+      "poi_counts": {
+        "school": 20,
+        "university": 1,
+        "office": 36,
+        "hospital": 7,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 3,
+        "transit_minor": 0,
+        "tourist_strong": 5,
+        "tourist_weak": 34,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 19
+      },
+      "densities": {
+        "cafe_per_km2": 5.15,
+        "office_per_km2": 9.76,
+        "hotel_per_km2": 0,
+        "tourist_per_km2": 10.57,
+        "bar_pub_per_km2": 0.27,
+        "transit_major_per_km2": 0.81,
+        "university_per_km2": 0.27
+      }
+    },
+    "lisboa/estrela": {
+      "name": "Estrela",
+      "municipality": "lisboa",
+      "area_km2": 4.604,
+      "population_2021": 19943,
+      "density_per_km2": 4332,
+      "poi_counts": {
+        "school": 12,
+        "university": 3,
+        "office": 97,
+        "hospital": 6,
+        "hotel_proper": 19,
+        "short_let": 4,
+        "transit_major": 0,
+        "transit_minor": 41,
+        "tourist_strong": 24,
+        "tourist_weak": 60,
+        "bar_pub": 26,
+        "nightclub": 11,
+        "cafe": 54
+      },
+      "densities": {
+        "cafe_per_km2": 11.73,
+        "office_per_km2": 21.07,
+        "hotel_per_km2": 4.13,
+        "tourist_per_km2": 18.25,
+        "bar_pub_per_km2": 8.04,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0.65
+      }
+    },
+    "lisboa/lumiar": {
+      "name": "Lumiar",
+      "municipality": "lisboa",
+      "area_km2": 6.5749,
+      "population_2021": 47653,
+      "density_per_km2": 7248,
+      "poi_counts": {
+        "school": 36,
+        "university": 3,
+        "office": 48,
+        "hospital": 15,
+        "hotel_proper": 1,
+        "short_let": 0,
+        "transit_major": 3,
+        "transit_minor": 0,
+        "tourist_strong": 4,
+        "tourist_weak": 47,
+        "bar_pub": 6,
+        "nightclub": 0,
+        "cafe": 51
+      },
+      "densities": {
+        "cafe_per_km2": 7.76,
+        "office_per_km2": 7.3,
+        "hotel_per_km2": 0.15,
+        "tourist_per_km2": 7.76,
+        "bar_pub_per_km2": 0.91,
+        "transit_major_per_km2": 0.46,
+        "university_per_km2": 0.46
+      }
+    },
+    "lisboa/marvila": {
+      "name": "Marvila",
+      "municipality": "lisboa",
+      "area_km2": 7.1224,
+      "population_2021": 38802,
+      "density_per_km2": 5448,
+      "poi_counts": {
+        "school": 22,
+        "university": 1,
+        "office": 37,
+        "hospital": 4,
+        "hotel_proper": 1,
+        "short_let": 1,
+        "transit_major": 2,
+        "transit_minor": 2,
+        "tourist_strong": 6,
+        "tourist_weak": 20,
+        "bar_pub": 7,
+        "nightclub": 2,
+        "cafe": 10
+      },
+      "densities": {
+        "cafe_per_km2": 1.4,
+        "office_per_km2": 5.19,
+        "hotel_per_km2": 0.14,
+        "tourist_per_km2": 3.65,
+        "bar_pub_per_km2": 1.26,
+        "transit_major_per_km2": 0.28,
+        "university_per_km2": 0.14
+      }
+    },
+    "lisboa/misericordia": {
+      "name": "Misericórdia",
+      "municipality": "lisboa",
+      "area_km2": 2.1922,
+      "population_2021": 12684,
+      "density_per_km2": 5786,
+      "poi_counts": {
+        "school": 9,
+        "university": 1,
+        "office": 50,
+        "hospital": 4,
+        "hotel_proper": 52,
+        "short_let": 16,
+        "transit_major": 4,
+        "transit_minor": 35,
+        "tourist_strong": 26,
+        "tourist_weak": 100,
+        "bar_pub": 141,
+        "nightclub": 8,
+        "cafe": 92
+      },
+      "densities": {
+        "cafe_per_km2": 41.97,
+        "office_per_km2": 22.81,
+        "hotel_per_km2": 23.72,
+        "tourist_per_km2": 57.48,
+        "bar_pub_per_km2": 67.97,
+        "transit_major_per_km2": 1.82,
+        "university_per_km2": 0.46
+      }
+    },
+    "lisboa/olivais": {
+      "name": "Olivais",
+      "municipality": "lisboa",
+      "area_km2": 8.088,
+      "population_2021": 35468,
+      "density_per_km2": 4385,
+      "poi_counts": {
+        "school": 25,
+        "university": 1,
+        "office": 32,
+        "hospital": 11,
+        "hotel_proper": 4,
+        "short_let": 2,
+        "transit_major": 3,
+        "transit_minor": 0,
+        "tourist_strong": 3,
+        "tourist_weak": 25,
+        "bar_pub": 2,
+        "nightclub": 0,
+        "cafe": 27
+      },
+      "densities": {
+        "cafe_per_km2": 3.34,
+        "office_per_km2": 3.96,
+        "hotel_per_km2": 0.49,
+        "tourist_per_km2": 3.46,
+        "bar_pub_per_km2": 0.25,
+        "transit_major_per_km2": 0.37,
+        "university_per_km2": 0.12
+      }
+    },
+    "lisboa/parque das nacoes": {
+      "name": "Parque das Nações",
+      "municipality": "lisboa",
+      "area_km2": 5.435,
+      "population_2021": 22679,
+      "density_per_km2": 4173,
+      "poi_counts": {
+        "school": 18,
+        "university": 1,
+        "office": 151,
+        "hospital": 18,
+        "hotel_proper": 13,
+        "short_let": 4,
+        "transit_major": 0,
+        "transit_minor": 3,
+        "tourist_strong": 18,
+        "tourist_weak": 11,
+        "bar_pub": 6,
+        "nightclub": 0,
+        "cafe": 53
+      },
+      "densities": {
+        "cafe_per_km2": 9.75,
+        "office_per_km2": 27.78,
+        "hotel_per_km2": 2.39,
+        "tourist_per_km2": 5.34,
+        "bar_pub_per_km2": 1.1,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0.18
+      }
+    },
+    "lisboa/penha de franca": {
+      "name": "Penha de França",
+      "municipality": "lisboa",
+      "area_km2": 2.7107,
+      "population_2021": 27762,
+      "density_per_km2": 10242,
+      "poi_counts": {
+        "school": 15,
+        "university": 0,
+        "office": 18,
+        "hospital": 4,
+        "hotel_proper": 35,
+        "short_let": 3,
+        "transit_major": 0,
+        "transit_minor": 1,
+        "tourist_strong": 6,
+        "tourist_weak": 16,
+        "bar_pub": 3,
+        "nightclub": 1,
+        "cafe": 60
+      },
+      "densities": {
+        "cafe_per_km2": 22.13,
+        "office_per_km2": 6.64,
+        "hotel_per_km2": 12.91,
+        "tourist_per_km2": 8.12,
+        "bar_pub_per_km2": 1.48,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0
+      }
+    },
+    "lisboa/santa clara": {
+      "name": "Santa Clara",
+      "municipality": "lisboa",
+      "area_km2": 3.3555,
+      "population_2021": 23138,
+      "density_per_km2": 6896,
+      "poi_counts": {
+        "school": 14,
+        "university": 0,
+        "office": 5,
+        "hospital": 0,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 1,
+        "transit_minor": 0,
+        "tourist_strong": 1,
+        "tourist_weak": 17,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 12
+      },
+      "densities": {
+        "cafe_per_km2": 3.58,
+        "office_per_km2": 1.49,
+        "hotel_per_km2": 0,
+        "tourist_per_km2": 5.36,
+        "bar_pub_per_km2": 0.3,
+        "transit_major_per_km2": 0.3,
+        "university_per_km2": 0
+      }
+    },
+    "lisboa/santa maria maior": {
+      "name": "Santa Maria Maior",
+      "municipality": "lisboa",
+      "area_km2": 3.0116,
+      "population_2021": 9478,
+      "density_per_km2": 3147,
+      "poi_counts": {
+        "school": 8,
+        "university": 1,
+        "office": 129,
+        "hospital": 6,
+        "hotel_proper": 127,
+        "short_let": 25,
+        "transit_major": 7,
+        "transit_minor": 35,
+        "tourist_strong": 51,
+        "tourist_weak": 161,
+        "bar_pub": 45,
+        "nightclub": 2,
+        "cafe": 127
+      },
+      "densities": {
+        "cafe_per_km2": 42.17,
+        "office_per_km2": 42.83,
+        "hotel_per_km2": 42.17,
+        "tourist_per_km2": 70.39,
+        "bar_pub_per_km2": 15.61,
+        "transit_major_per_km2": 2.32,
+        "university_per_km2": 0.33
+      }
+    },
+    "lisboa/santo antonio": {
+      "name": "Santo António",
+      "municipality": "lisboa",
+      "area_km2": 1.4943,
+      "population_2021": 10802,
+      "density_per_km2": 7229,
+      "poi_counts": {
+        "school": 15,
+        "university": 2,
+        "office": 199,
+        "hospital": 14,
+        "hotel_proper": 102,
+        "short_let": 15,
+        "transit_major": 5,
+        "transit_minor": 11,
+        "tourist_strong": 16,
+        "tourist_weak": 63,
+        "bar_pub": 31,
+        "nightclub": 5,
+        "cafe": 51
+      },
+      "densities": {
+        "cafe_per_km2": 34.13,
+        "office_per_km2": 133.17,
+        "hotel_per_km2": 68.26,
+        "tourist_per_km2": 52.87,
+        "bar_pub_per_km2": 24.09,
+        "transit_major_per_km2": 3.35,
+        "university_per_km2": 1.34
+      }
+    },
+    "lisboa/sao domingos de benfica": {
+      "name": "São Domingos de Benfica",
+      "municipality": "lisboa",
+      "area_km2": 4.2943,
+      "population_2021": 33348,
+      "density_per_km2": 7766,
+      "poi_counts": {
+        "school": 22,
+        "university": 1,
+        "office": 77,
+        "hospital": 45,
+        "hotel_proper": 3,
+        "short_let": 1,
+        "transit_major": 3,
+        "transit_minor": 1,
+        "tourist_strong": 57,
+        "tourist_weak": 38,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 47
+      },
+      "densities": {
+        "cafe_per_km2": 10.94,
+        "office_per_km2": 17.93,
+        "hotel_per_km2": 0.7,
+        "tourist_per_km2": 22.12,
+        "bar_pub_per_km2": 0.23,
+        "transit_major_per_km2": 0.7,
+        "university_per_km2": 0.23
+      }
+    },
+    "lisboa/sao vicente": {
+      "name": "São Vicente",
+      "municipality": "lisboa",
+      "area_km2": 1.9858,
+      "population_2021": 14824,
+      "density_per_km2": 7465,
+      "poi_counts": {
+        "school": 9,
+        "university": 0,
+        "office": 14,
+        "hospital": 1,
+        "hotel_proper": 14,
+        "short_let": 23,
+        "transit_major": 1,
+        "transit_minor": 16,
+        "tourist_strong": 4,
+        "tourist_weak": 29,
+        "bar_pub": 17,
+        "nightclub": 0,
+        "cafe": 30
+      },
+      "densities": {
+        "cafe_per_km2": 15.11,
+        "office_per_km2": 7.05,
+        "hotel_per_km2": 7.05,
+        "tourist_per_km2": 16.62,
+        "bar_pub_per_km2": 8.56,
+        "transit_major_per_km2": 0.5,
+        "university_per_km2": 0
+      }
+    },
+    "amadora/aguas livres": {
+      "name": "Águas Livres",
+      "municipality": "amadora",
+      "area_km2": 2.2128,
+      "population_2021": 36287,
+      "density_per_km2": 16399,
+      "poi_counts": {
+        "school": 18,
+        "university": 0,
+        "office": 16,
+        "hospital": 4,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 0,
+        "tourist_weak": 35,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 21
+      },
+      "densities": {
+        "cafe_per_km2": 9.49,
+        "office_per_km2": 7.23,
+        "hotel_per_km2": 0,
+        "tourist_per_km2": 15.82,
+        "bar_pub_per_km2": 0.45,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0
+      }
+    },
+    "amadora/alfragide": {
+      "name": "Alfragide",
+      "municipality": "amadora",
+      "area_km2": 2.5112,
+      "population_2021": 9939,
+      "density_per_km2": 3958,
+      "poi_counts": {
+        "school": 12,
+        "university": 0,
+        "office": 34,
+        "hospital": 7,
+        "hotel_proper": 2,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 0,
+        "tourist_weak": 23,
+        "bar_pub": 0,
+        "nightclub": 0,
+        "cafe": 6
+      },
+      "densities": {
+        "cafe_per_km2": 2.39,
+        "office_per_km2": 13.54,
+        "hotel_per_km2": 0.8,
+        "tourist_per_km2": 9.16,
+        "bar_pub_per_km2": 0,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0
+      }
+    },
+    "amadora/encosta do sol": {
+      "name": "Encosta do Sol",
+      "municipality": "amadora",
+      "area_km2": 2.802,
+      "population_2021": 27135,
+      "density_per_km2": 9684,
+      "poi_counts": {
+        "school": 14,
+        "university": 0,
+        "office": 2,
+        "hospital": 2,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 2,
+        "transit_minor": 0,
+        "tourist_strong": 1,
+        "tourist_weak": 0,
+        "bar_pub": 0,
+        "nightclub": 0,
+        "cafe": 23
+      },
+      "densities": {
+        "cafe_per_km2": 8.21,
+        "office_per_km2": 0.71,
+        "hotel_per_km2": 0,
+        "tourist_per_km2": 0.36,
+        "bar_pub_per_km2": 0,
+        "transit_major_per_km2": 0.71,
+        "university_per_km2": 0
+      }
+    },
+    "amadora/falagueira-venda nova": {
+      "name": "Falagueira-Venda Nova",
+      "municipality": "amadora",
+      "area_km2": 2.8574,
+      "population_2021": 22246,
+      "density_per_km2": 7785,
+      "poi_counts": {
+        "school": 11,
+        "university": 0,
+        "office": 8,
+        "hospital": 1,
+        "hotel_proper": 0,
+        "short_let": 2,
+        "transit_major": 5,
+        "transit_minor": 1,
+        "tourist_strong": 0,
+        "tourist_weak": 21,
+        "bar_pub": 0,
+        "nightclub": 0,
+        "cafe": 11
+      },
+      "densities": {
+        "cafe_per_km2": 3.85,
+        "office_per_km2": 2.8,
+        "hotel_per_km2": 0,
+        "tourist_per_km2": 7.35,
+        "bar_pub_per_km2": 0,
+        "transit_major_per_km2": 1.75,
+        "university_per_km2": 0
+      }
+    },
+    "amadora/mina de agua": {
+      "name": "Mina de Água",
+      "municipality": "amadora",
+      "area_km2": 8.0922,
+      "population_2021": 38198,
+      "density_per_km2": 4720,
+      "poi_counts": {
+        "school": 25,
+        "university": 1,
+        "office": 11,
+        "hospital": 0,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 0,
+        "tourist_weak": 18,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 11
+      },
+      "densities": {
+        "cafe_per_km2": 1.36,
+        "office_per_km2": 1.36,
+        "hotel_per_km2": 0,
+        "tourist_per_km2": 2.22,
+        "bar_pub_per_km2": 0.12,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0.12
+      }
+    },
+    "amadora/venteira": {
+      "name": "Venteira",
+      "municipality": "amadora",
+      "area_km2": 5.3092,
+      "population_2021": 21891,
+      "density_per_km2": 4123,
+      "poi_counts": {
+        "school": 16,
+        "university": 3,
+        "office": 21,
+        "hospital": 6,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 3,
+        "tourist_weak": 4,
+        "bar_pub": 0,
+        "nightclub": 0,
+        "cafe": 18
+      },
+      "densities": {
+        "cafe_per_km2": 3.39,
+        "office_per_km2": 3.96,
+        "hotel_per_km2": 0,
+        "tourist_per_km2": 1.32,
+        "bar_pub_per_km2": 0,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0.57
+      }
+    },
+    "odivelas/odivelas": {
+      "name": "Odivelas",
+      "municipality": "odivelas",
+      "area_km2": 5.0445,
+      "population_2021": 56838,
+      "density_per_km2": 11267,
+      "poi_counts": {
+        "school": 47,
+        "university": 0,
+        "office": 17,
+        "hospital": 6,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 2,
+        "transit_minor": 0,
+        "tourist_strong": 0,
+        "tourist_weak": 15,
+        "bar_pub": 1,
+        "nightclub": 1,
+        "cafe": 20
+      },
+      "densities": {
+        "cafe_per_km2": 3.96,
+        "office_per_km2": 3.37,
+        "hotel_per_km2": 0,
+        "tourist_per_km2": 2.97,
+        "bar_pub_per_km2": 0.4,
+        "transit_major_per_km2": 0.4,
+        "university_per_km2": 0
+      }
+    },
+    "odivelas/uniao das freguesias de pontinha e famoes": {
+      "name": "União das freguesias de Pontinha e Famões",
+      "municipality": "odivelas",
+      "area_km2": 9.2103,
+      "population_2021": 36123,
+      "density_per_km2": 3922,
+      "poi_counts": {
+        "school": 15,
+        "university": 0,
+        "office": 3,
+        "hospital": 1,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 0,
+        "tourist_weak": 12,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 15
+      },
+      "densities": {
+        "cafe_per_km2": 1.63,
+        "office_per_km2": 0.33,
+        "hotel_per_km2": 0,
+        "tourist_per_km2": 1.3,
+        "bar_pub_per_km2": 0.11,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0
+      }
+    },
+    "odivelas/uniao das freguesias de povoa de santo adriao e olival basto": {
+      "name": "União das freguesias de Póvoa de Santo Adrião e Olival Basto",
+      "municipality": "odivelas",
+      "area_km2": 2.6297,
+      "population_2021": 18906,
+      "density_per_km2": 7189,
+      "poi_counts": {
+        "school": 10,
+        "university": 0,
+        "office": 1,
+        "hospital": 2,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 2,
+        "tourist_weak": 4,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 9
+      },
+      "densities": {
+        "cafe_per_km2": 3.42,
+        "office_per_km2": 0.38,
+        "hotel_per_km2": 0,
+        "tourist_per_km2": 2.28,
+        "bar_pub_per_km2": 0.38,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0
+      }
+    },
+    "odivelas/uniao das freguesias de ramada e canecas": {
+      "name": "União das freguesias de Ramada e Caneças",
+      "municipality": "odivelas",
+      "area_km2": 9.6591,
+      "population_2021": 36981,
+      "density_per_km2": 3829,
+      "poi_counts": {
+        "school": 24,
+        "university": 0,
+        "office": 16,
+        "hospital": 5,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 1,
+        "tourist_weak": 35,
+        "bar_pub": 2,
+        "nightclub": 0,
+        "cafe": 13
+      },
+      "densities": {
+        "cafe_per_km2": 1.35,
+        "office_per_km2": 1.66,
+        "hotel_per_km2": 0,
+        "tourist_per_km2": 3.73,
+        "bar_pub_per_km2": 0.21,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0
+      }
+    },
+    "loures/bucelas": {
+      "name": "Bucelas",
+      "municipality": "loures",
+      "area_km2": 33.969,
+      "population_2021": 4855,
+      "density_per_km2": 143,
+      "poi_counts": {
+        "school": 0,
+        "university": 0,
+        "office": 1,
+        "hospital": 0,
+        "hotel_proper": 0,
+        "short_let": 1,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 0,
+        "tourist_weak": 8,
+        "bar_pub": 0,
+        "nightclub": 0,
+        "cafe": 0
+      },
+      "densities": {
+        "cafe_per_km2": 0,
+        "office_per_km2": 0.03,
+        "hotel_per_km2": 0,
+        "tourist_per_km2": 0.24,
+        "bar_pub_per_km2": 0,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0
+      }
+    },
+    "loures/fanhoes": {
+      "name": "Fanhões",
+      "municipality": "loures",
+      "area_km2": 11.6291,
+      "population_2021": 2820,
+      "density_per_km2": 242,
+      "poi_counts": {
+        "school": 2,
+        "university": 0,
+        "office": 2,
+        "hospital": 0,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 3,
+        "tourist_weak": 8,
+        "bar_pub": 0,
+        "nightclub": 0,
+        "cafe": 1
+      },
+      "densities": {
+        "cafe_per_km2": 0.09,
+        "office_per_km2": 0.17,
+        "hotel_per_km2": 0,
+        "tourist_per_km2": 0.95,
+        "bar_pub_per_km2": 0,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0
+      }
+    },
+    "loures/loures": {
+      "name": "Loures",
+      "municipality": "loures",
+      "area_km2": 32.815,
+      "population_2021": 27083,
+      "density_per_km2": 825,
+      "poi_counts": {
+        "school": 22,
+        "university": 1,
+        "office": 16,
+        "hospital": 4,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 1,
+        "tourist_weak": 29,
+        "bar_pub": 3,
+        "nightclub": 0,
+        "cafe": 33
+      },
+      "densities": {
+        "cafe_per_km2": 1.01,
+        "office_per_km2": 0.49,
+        "hotel_per_km2": 0,
+        "tourist_per_km2": 0.91,
+        "bar_pub_per_km2": 0.09,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0.03
+      }
+    },
+    "loures/lousa": {
+      "name": "Lousa",
+      "municipality": "loures",
+      "area_km2": 16.5221,
+      "population_2021": 2675,
+      "density_per_km2": 162,
+      "poi_counts": {
+        "school": 2,
+        "university": 0,
+        "office": 2,
+        "hospital": 0,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 1,
+        "tourist_weak": 9,
+        "bar_pub": 0,
+        "nightclub": 0,
+        "cafe": 2
+      },
+      "densities": {
+        "cafe_per_km2": 0.12,
+        "office_per_km2": 0.12,
+        "hotel_per_km2": 0,
+        "tourist_per_km2": 0.61,
+        "bar_pub_per_km2": 0,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0
+      }
+    },
+    "loures/uniao das freguesias de camarate unhos e apelacao": {
+      "name": "União das freguesias de Camarate, Unhos e Apelação",
+      "municipality": "loures",
+      "area_km2": 11.5659,
+      "population_2021": 31396,
+      "density_per_km2": 2715,
+      "poi_counts": {
+        "school": 21,
+        "university": 0,
+        "office": 6,
+        "hospital": 1,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 1,
+        "tourist_weak": 5,
+        "bar_pub": 4,
+        "nightclub": 0,
+        "cafe": 42
+      },
+      "densities": {
+        "cafe_per_km2": 3.63,
+        "office_per_km2": 0.52,
+        "hotel_per_km2": 0,
+        "tourist_per_km2": 0.52,
+        "bar_pub_per_km2": 0.35,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0
+      }
+    },
+    "loures/uniao das freguesias de moscavide e portela": {
+      "name": "União das freguesias de Moscavide e Portela",
+      "municipality": "loures",
+      "area_km2": 1.6563,
+      "population_2021": 22183,
+      "density_per_km2": 13393,
+      "poi_counts": {
+        "school": 11,
+        "university": 1,
+        "office": 11,
+        "hospital": 2,
+        "hotel_proper": 1,
+        "short_let": 1,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 0,
+        "tourist_weak": 3,
+        "bar_pub": 0,
+        "nightclub": 0,
+        "cafe": 23
+      },
+      "densities": {
+        "cafe_per_km2": 13.89,
+        "office_per_km2": 6.64,
+        "hotel_per_km2": 0.6,
+        "tourist_per_km2": 1.81,
+        "bar_pub_per_km2": 0,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0.6
+      }
+    },
+    "loures/uniao das freguesias de sacavem e prior velho": {
+      "name": "União das freguesias de Sacavém e Prior Velho",
+      "municipality": "loures",
+      "area_km2": 3.8855,
+      "population_2021": 23284,
+      "density_per_km2": 5993,
+      "poi_counts": {
+        "school": 13,
+        "university": 0,
+        "office": 21,
+        "hospital": 4,
+        "hotel_proper": 2,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 2,
+        "tourist_weak": 1,
+        "bar_pub": 1,
+        "nightclub": 1,
+        "cafe": 28
+      },
+      "densities": {
+        "cafe_per_km2": 7.21,
+        "office_per_km2": 5.4,
+        "hotel_per_km2": 0.51,
+        "tourist_per_km2": 0.77,
+        "bar_pub_per_km2": 0.51,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0
+      }
+    },
+    "loures/uniao das freguesias de santa iria de azoia sao joao da talha e bobadela": {
+      "name": "União das freguesias de Santa Iria de Azoia, São João da Talha e Bobadela",
+      "municipality": "loures",
+      "area_km2": 17.5919,
+      "population_2021": 47755,
+      "density_per_km2": 2715,
+      "poi_counts": {
+        "school": 32,
+        "university": 1,
+        "office": 14,
+        "hospital": 4,
+        "hotel_proper": 1,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 2,
+        "tourist_strong": 2,
+        "tourist_weak": 9,
+        "bar_pub": 0,
+        "nightclub": 1,
+        "cafe": 15
+      },
+      "densities": {
+        "cafe_per_km2": 0.85,
+        "office_per_km2": 0.8,
+        "hotel_per_km2": 0.06,
+        "tourist_per_km2": 0.63,
+        "bar_pub_per_km2": 0.06,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0.06
+      }
+    },
+    "loures/uniao das freguesias de santo antao e sao juliao do tojal": {
+      "name": "União das freguesias de Santo Antão e São Julião do Tojal",
+      "municipality": "loures",
+      "area_km2": 28.408,
+      "population_2021": 11321,
+      "density_per_km2": 399,
+      "poi_counts": {
+        "school": 8,
+        "university": 0,
+        "office": 2,
+        "hospital": 2,
+        "hotel_proper": 2,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 1,
+        "tourist_weak": 19,
+        "bar_pub": 0,
+        "nightclub": 1,
+        "cafe": 9
+      },
+      "densities": {
+        "cafe_per_km2": 0.32,
+        "office_per_km2": 0.07,
+        "hotel_per_km2": 0.07,
+        "tourist_per_km2": 0.7,
+        "bar_pub_per_km2": 0.04,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0
+      }
+    },
+    "loures/uniao das freguesias de santo antonio dos cavaleiros e frielas": {
+      "name": "União das freguesias de Santo António dos Cavaleiros e Frielas",
+      "municipality": "loures",
+      "area_km2": 9.1971,
+      "population_2021": 26122,
+      "density_per_km2": 2840,
+      "poi_counts": {
+        "school": 14,
+        "university": 0,
+        "office": 19,
+        "hospital": 2,
+        "hotel_proper": 0,
+        "short_let": 1,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 1,
+        "tourist_weak": 3,
+        "bar_pub": 0,
+        "nightclub": 0,
+        "cafe": 20
+      },
+      "densities": {
+        "cafe_per_km2": 2.17,
+        "office_per_km2": 2.07,
+        "hotel_per_km2": 0,
+        "tourist_per_km2": 0.43,
+        "bar_pub_per_km2": 0,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0
+      }
+    },
+    "oeiras/barcarena": {
+      "name": "Barcarena",
+      "municipality": "oeiras",
+      "area_km2": 9.0133,
+      "population_2021": 14502,
+      "density_per_km2": 1609,
+      "poi_counts": {
+        "school": 12,
+        "university": 3,
+        "office": 7,
+        "hospital": 2,
+        "hotel_proper": 2,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 3,
+        "tourist_weak": 19,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 8
+      },
+      "densities": {
+        "cafe_per_km2": 0.89,
+        "office_per_km2": 0.78,
+        "hotel_per_km2": 0.22,
+        "tourist_per_km2": 2.44,
+        "bar_pub_per_km2": 0.11,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0.33
+      }
+    },
+    "oeiras/porto salvo": {
+      "name": "Porto Salvo",
+      "municipality": "oeiras",
+      "area_km2": 7.3429,
+      "population_2021": 16802,
+      "density_per_km2": 2288,
+      "poi_counts": {
+        "school": 15,
+        "university": 1,
+        "office": 47,
+        "hospital": 1,
+        "hotel_proper": 4,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 0,
+        "tourist_weak": 8,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 12
+      },
+      "densities": {
+        "cafe_per_km2": 1.63,
+        "office_per_km2": 6.4,
+        "hotel_per_km2": 0.54,
+        "tourist_per_km2": 1.09,
+        "bar_pub_per_km2": 0.14,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0.14
+      }
+    },
+    "oeiras/uniao das freguesias de alges linda-a-velha e cruz quebrada-dafundo": {
+      "name": "União das freguesias de Algés, Linda-a-Velha e Cruz Quebrada-Dafundo",
+      "municipality": "oeiras",
+      "area_km2": 7.1828,
+      "population_2021": 35239,
+      "density_per_km2": 4906,
+      "poi_counts": {
+        "school": 28,
+        "university": 2,
+        "office": 31,
+        "hospital": 8,
+        "hotel_proper": 2,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 5,
+        "tourist_strong": 3,
+        "tourist_weak": 18,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 35
+      },
+      "densities": {
+        "cafe_per_km2": 4.87,
+        "office_per_km2": 4.32,
+        "hotel_per_km2": 0.28,
+        "tourist_per_km2": 2.92,
+        "bar_pub_per_km2": 0.14,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0.28
+      }
+    },
+    "oeiras/uniao das freguesias de carnaxide e queijas": {
+      "name": "União das freguesias de Carnaxide e Queijas",
+      "municipality": "oeiras",
+      "area_km2": 8.8128,
+      "population_2021": 38875,
+      "density_per_km2": 4411,
+      "poi_counts": {
+        "school": 22,
+        "university": 0,
+        "office": 33,
+        "hospital": 5,
+        "hotel_proper": 4,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 0,
+        "tourist_weak": 24,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 15
+      },
+      "densities": {
+        "cafe_per_km2": 1.7,
+        "office_per_km2": 3.74,
+        "hotel_per_km2": 0.45,
+        "tourist_per_km2": 2.72,
+        "bar_pub_per_km2": 0.11,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0
+      }
+    },
+    "oeiras/uniao das freguesias de oeiras e sao juliao da barra paco de arcos e caxias": {
+      "name": "União das freguesias de Oeiras e São Julião da Barra, Paço de Arcos e Caxias",
+      "municipality": "oeiras",
+      "area_km2": 13.5313,
+      "population_2021": 66384,
+      "density_per_km2": 4906,
+      "poi_counts": {
+        "school": 41,
+        "university": 1,
+        "office": 36,
+        "hospital": 7,
+        "hotel_proper": 5,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 4,
+        "tourist_strong": 5,
+        "tourist_weak": 63,
+        "bar_pub": 7,
+        "nightclub": 0,
+        "cafe": 65
+      },
+      "densities": {
+        "cafe_per_km2": 4.8,
+        "office_per_km2": 2.66,
+        "hotel_per_km2": 0.37,
+        "tourist_per_km2": 5.03,
+        "bar_pub_per_km2": 0.52,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0.07
+      }
+    },
+    "cascais/alcabideche": {
+      "name": "Alcabideche",
+      "municipality": "cascais",
+      "area_km2": 39.7557,
+      "population_2021": 47879,
+      "density_per_km2": 1204,
+      "poi_counts": {
+        "school": 34,
+        "university": 1,
+        "office": 31,
+        "hospital": 8,
+        "hotel_proper": 4,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 8,
+        "tourist_weak": 34,
+        "bar_pub": 6,
+        "nightclub": 0,
+        "cafe": 64
+      },
+      "densities": {
+        "cafe_per_km2": 1.61,
+        "office_per_km2": 0.78,
+        "hotel_per_km2": 0.1,
+        "tourist_per_km2": 1.06,
+        "bar_pub_per_km2": 0.15,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0.03
+      }
+    },
+    "cascais/sao domingos de rana": {
+      "name": "São Domingos de Rana",
+      "municipality": "cascais",
+      "area_km2": 20.3643,
+      "population_2021": 56364,
+      "density_per_km2": 2768,
+      "poi_counts": {
+        "school": 49,
+        "university": 1,
+        "office": 48,
+        "hospital": 3,
+        "hotel_proper": 1,
+        "short_let": 2,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 0,
+        "tourist_weak": 13,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 73
+      },
+      "densities": {
+        "cafe_per_km2": 3.58,
+        "office_per_km2": 2.36,
+        "hotel_per_km2": 0.05,
+        "tourist_per_km2": 0.64,
+        "bar_pub_per_km2": 0.05,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0.05
+      }
+    },
+    "cascais/uniao das freguesias de carcavelos e parede": {
+      "name": "União das freguesias de Carcavelos e Parede",
+      "municipality": "cascais",
+      "area_km2": 8.1099,
+      "population_2021": 38895,
+      "density_per_km2": 4796,
+      "poi_counts": {
+        "school": 35,
+        "university": 1,
+        "office": 83,
+        "hospital": 23,
+        "hotel_proper": 8,
+        "short_let": 2,
+        "transit_major": 0,
+        "transit_minor": 3,
+        "tourist_strong": 0,
+        "tourist_weak": 27,
+        "bar_pub": 12,
+        "nightclub": 1,
+        "cafe": 88
+      },
+      "densities": {
+        "cafe_per_km2": 10.85,
+        "office_per_km2": 10.23,
+        "hotel_per_km2": 0.99,
+        "tourist_per_km2": 3.33,
+        "bar_pub_per_km2": 1.6,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0.12
+      }
+    },
+    "cascais/uniao das freguesias de cascais e estoril": {
+      "name": "União das freguesias de Cascais e Estoril",
+      "municipality": "cascais",
+      "area_km2": 29.1592,
+      "population_2021": 38598,
+      "density_per_km2": 1324,
+      "poi_counts": {
+        "school": 68,
+        "university": 3,
+        "office": 102,
+        "hospital": 15,
+        "hotel_proper": 58,
+        "short_let": 1,
+        "transit_major": 0,
+        "transit_minor": 5,
+        "tourist_strong": 23,
+        "tourist_weak": 78,
+        "bar_pub": 33,
+        "nightclub": 2,
+        "cafe": 96
+      },
+      "densities": {
+        "cafe_per_km2": 3.29,
+        "office_per_km2": 3.5,
+        "hotel_per_km2": 1.99,
+        "tourist_per_km2": 3.46,
+        "bar_pub_per_km2": 1.2,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0.1
+      }
+    },
+    "almada/costa da caparica": {
+      "name": "Costa da Caparica",
+      "municipality": "almada",
+      "area_km2": 10.1782,
+      "population_2021": 14129,
+      "density_per_km2": 1388,
+      "poi_counts": {
+        "school": 8,
+        "university": 0,
+        "office": 32,
+        "hospital": 3,
+        "hotel_proper": 19,
+        "short_let": 15,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 10,
+        "tourist_weak": 4,
+        "bar_pub": 20,
+        "nightclub": 0,
+        "cafe": 49
+      },
+      "densities": {
+        "cafe_per_km2": 4.81,
+        "office_per_km2": 3.14,
+        "hotel_per_km2": 1.87,
+        "tourist_per_km2": 1.38,
+        "bar_pub_per_km2": 1.96,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0
+      }
+    },
+    "almada/uniao das freguesias de almada cova da piedade pragal e cacilhas": {
+      "name": "União das freguesias de Almada, Cova da Piedade, Pragal e Cacilhas",
+      "municipality": "almada",
+      "area_km2": 6.1545,
+      "population_2021": 47591,
+      "density_per_km2": 7733,
+      "poi_counts": {
+        "school": 47,
+        "university": 4,
+        "office": 158,
+        "hospital": 72,
+        "hotel_proper": 8,
+        "short_let": 4,
+        "transit_major": 0,
+        "transit_minor": 11,
+        "tourist_strong": 21,
+        "tourist_weak": 54,
+        "bar_pub": 41,
+        "nightclub": 1,
+        "cafe": 131
+      },
+      "densities": {
+        "cafe_per_km2": 21.29,
+        "office_per_km2": 25.67,
+        "hotel_per_km2": 1.3,
+        "tourist_per_km2": 12.19,
+        "bar_pub_per_km2": 6.82,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0.65
+      }
+    },
+    "almada/uniao das freguesias de caparica e trafaria": {
+      "name": "União das freguesias de Caparica e Trafaria",
+      "municipality": "almada",
+      "area_km2": 16.7456,
+      "population_2021": 23793,
+      "density_per_km2": 1421,
+      "poi_counts": {
+        "school": 23,
+        "university": 4,
+        "office": 19,
+        "hospital": 7,
+        "hotel_proper": 4,
+        "short_let": 1,
+        "transit_major": 0,
+        "transit_minor": 4,
+        "tourist_strong": 7,
+        "tourist_weak": 58,
+        "bar_pub": 7,
+        "nightclub": 0,
+        "cafe": 72
+      },
+      "densities": {
+        "cafe_per_km2": 4.3,
+        "office_per_km2": 1.13,
+        "hotel_per_km2": 0.24,
+        "tourist_per_km2": 3.88,
+        "bar_pub_per_km2": 0.42,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0.24
+      }
+    },
+    "almada/uniao das freguesias de charneca de caparica e sobreda": {
+      "name": "União das freguesias de Charneca de Caparica e Sobreda",
+      "municipality": "almada",
+      "area_km2": 29.0513,
+      "population_2021": 39810,
+      "density_per_km2": 1370,
+      "poi_counts": {
+        "school": 35,
+        "university": 3,
+        "office": 57,
+        "hospital": 12,
+        "hotel_proper": 9,
+        "short_let": 3,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 2,
+        "tourist_weak": 29,
+        "bar_pub": 2,
+        "nightclub": 0,
+        "cafe": 81
+      },
+      "densities": {
+        "cafe_per_km2": 2.79,
+        "office_per_km2": 1.96,
+        "hotel_per_km2": 0.31,
+        "tourist_per_km2": 1.07,
+        "bar_pub_per_km2": 0.07,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0.1
+      }
+    },
+    "almada/uniao das freguesias de laranjeiro e feijo": {
+      "name": "União das freguesias de Laranjeiro e Feijó",
+      "municipality": "almada",
+      "area_km2": 7.8793,
+      "population_2021": 49862,
+      "density_per_km2": 6328,
+      "poi_counts": {
+        "school": 31,
+        "university": 1,
+        "office": 80,
+        "hospital": 11,
+        "hotel_proper": 0,
+        "short_let": 2,
+        "transit_major": 0,
+        "transit_minor": 4,
+        "tourist_strong": 1,
+        "tourist_weak": 5,
+        "bar_pub": 6,
+        "nightclub": 1,
+        "cafe": 91
+      },
+      "densities": {
+        "cafe_per_km2": 11.55,
+        "office_per_km2": 10.15,
+        "hotel_per_km2": 0,
+        "tourist_per_km2": 0.76,
+        "bar_pub_per_km2": 0.89,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0.13
+      }
+    },
+    "seixal/amora": {
+      "name": "Amora",
+      "municipality": "seixal",
+      "area_km2": 24.3333,
+      "population_2021": 51098,
+      "density_per_km2": 2100,
+      "poi_counts": {
+        "school": 39,
+        "university": 1,
+        "office": 13,
+        "hospital": 9,
+        "hotel_proper": 2,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 1,
+        "tourist_strong": 1,
+        "tourist_weak": 5,
+        "bar_pub": 3,
+        "nightclub": 2,
+        "cafe": 34
+      },
+      "densities": {
+        "cafe_per_km2": 1.4,
+        "office_per_km2": 0.53,
+        "hotel_per_km2": 0.08,
+        "tourist_per_km2": 0.25,
+        "bar_pub_per_km2": 0.21,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0.04
+      }
+    },
+    "seixal/arrentela": {
+      "name": "Arrentela",
+      "municipality": "seixal",
+      "area_km2": 10.1674,
+      "population_2021": 30319,
+      "density_per_km2": 2982,
+      "poi_counts": {
+        "school": 26,
+        "university": 0,
+        "office": 4,
+        "hospital": 4,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 1,
+        "tourist_strong": 4,
+        "tourist_weak": 9,
+        "bar_pub": 0,
+        "nightclub": 0,
+        "cafe": 29
+      },
+      "densities": {
+        "cafe_per_km2": 2.85,
+        "office_per_km2": 0.39,
+        "hotel_per_km2": 0,
+        "tourist_per_km2": 1.28,
+        "bar_pub_per_km2": 0,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0
+      }
+    },
+    "seixal/corroios": {
+      "name": "Corroios",
+      "municipality": "seixal",
+      "area_km2": 17.3097,
+      "population_2021": 47661,
+      "density_per_km2": 2753,
+      "poi_counts": {
+        "school": 37,
+        "university": 0,
+        "office": 28,
+        "hospital": 8,
+        "hotel_proper": 1,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 3,
+        "tourist_strong": 1,
+        "tourist_weak": 6,
+        "bar_pub": 5,
+        "nightclub": 0,
+        "cafe": 39
+      },
+      "densities": {
+        "cafe_per_km2": 2.25,
+        "office_per_km2": 1.62,
+        "hotel_per_km2": 0.06,
+        "tourist_per_km2": 0.4,
+        "bar_pub_per_km2": 0.29,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0
+      }
+    },
+    "seixal/fernao ferro": {
+      "name": "Fernão Ferro",
+      "municipality": "seixal",
+      "area_km2": 23.9056,
+      "population_2021": 19207,
+      "density_per_km2": 803,
+      "poi_counts": {
+        "school": 13,
+        "university": 0,
+        "office": 3,
+        "hospital": 1,
+        "hotel_proper": 3,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 0,
+        "tourist_weak": 1,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 2
+      },
+      "densities": {
+        "cafe_per_km2": 0.08,
+        "office_per_km2": 0.13,
+        "hotel_per_km2": 0.13,
+        "tourist_per_km2": 0.04,
+        "bar_pub_per_km2": 0.04,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0
+      }
+    },
+    "seixal/paio pires": {
+      "name": "Paio Pires",
+      "municipality": "seixal",
+      "area_km2": 16.0076,
+      "population_2021": 11429,
+      "density_per_km2": 714,
+      "poi_counts": {
+        "school": 7,
+        "university": 0,
+        "office": 35,
+        "hospital": 1,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 1,
+        "tourist_strong": 0,
+        "tourist_weak": 5,
+        "bar_pub": 0,
+        "nightclub": 0,
+        "cafe": 13
+      },
+      "densities": {
+        "cafe_per_km2": 0.81,
+        "office_per_km2": 2.19,
+        "hotel_per_km2": 0,
+        "tourist_per_km2": 0.31,
+        "bar_pub_per_km2": 0,
+        "transit_major_per_km2": 0,
+        "university_per_km2": 0
+      }
+    },
+    "seixal/seixal": {
+      "name": "Seixal",
+      "municipality": "seixal",
+      "area_km2": 3.7281,
+      "population_2021": 2662,
+      "density_per_km2": 714,
+      "poi_counts": {
+        "school": 5,
+        "university": 1,
+        "office": 5,
+        "hospital": 7,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 1,
+        "transit_minor": 0,
+        "tourist_strong": 2,
+        "tourist_weak": 12,
+        "bar_pub": 6,
+        "nightclub": 0,
+        "cafe": 8
+      },
+      "densities": {
+        "cafe_per_km2": 2.15,
+        "office_per_km2": 1.34,
+        "hotel_per_km2": 0,
+        "tourist_per_km2": 3.76,
+        "bar_pub_per_km2": 1.61,
+        "transit_major_per_km2": 0.27,
+        "university_per_km2": 0.27
+      }
+    }
+  },
+  "debug_signals": [
+    {
+      "key": "lisboa/ajuda",
+      "name": "Ajuda",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 12,
+        "university": 6,
+        "office": 12,
+        "hospital": 3,
+        "hotel_proper": 2,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 18,
+        "tourist_strong": 9,
+        "tourist_weak": 35,
+        "bar_pub": 3,
+        "nightclub": 0,
+        "cafe": 41
+      },
+      "raw": {
+        "office": 7.075245405334976,
+        "student": 28.867001253766702,
+        "tourist": 18.86732108089327,
+        "nightlife": 1.2381679459336208
+      }
+    },
+    {
+      "key": "lisboa/alcantara",
+      "name": "Alcântara",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 14,
+        "university": 4,
+        "office": 55,
+        "hospital": 5,
+        "hotel_proper": 8,
+        "short_let": 2,
+        "transit_major": 0,
+        "transit_minor": 19,
+        "tourist_strong": 10,
+        "tourist_weak": 26,
+        "bar_pub": 5,
+        "nightclub": 1,
+        "cafe": 40
+      },
+      "raw": {
+        "office": 24.414802973617487,
+        "student": 14.70215044520384,
+        "tourist": 23.260648651228294,
+        "nightlife": 2.6634330516673623
+      }
+    },
+    {
+      "key": "lisboa/alvalade",
+      "name": "Alvalade",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 45,
+        "university": 11,
+        "office": 95,
+        "hospital": 17,
+        "hotel_proper": 35,
+        "short_let": 1,
+        "transit_major": 1,
+        "transit_minor": 1,
+        "tourist_strong": 3,
+        "tourist_weak": 32,
+        "bar_pub": 14,
+        "nightclub": 2,
+        "cafe": 59
+      },
+      "raw": {
+        "office": 41.103978381300614,
+        "student": 39.632888628706695,
+        "tourist": 50.40645769917391,
+        "nightlife": 6.403567158349991
+      }
+    },
+    {
+      "key": "lisboa/areeiro",
+      "name": "Areeiro",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 16,
+        "university": 2,
+        "office": 49,
+        "hospital": 5,
+        "hotel_proper": 7,
+        "short_let": 1,
+        "transit_major": 1,
+        "transit_minor": 0,
+        "tourist_strong": 4,
+        "tourist_weak": 15,
+        "bar_pub": 5,
+        "nightclub": 1,
+        "cafe": 47
+      },
+      "raw": {
+        "office": 37.37410266407385,
+        "student": 13.180091715004004,
+        "tourist": 25.399135075788962,
+        "nightlife": 4.57642073437639
+      }
+    },
+    {
+      "key": "lisboa/arroios",
+      "name": "Arroios",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 22,
+        "university": 10,
+        "office": 93,
+        "hospital": 11,
+        "hotel_proper": 78,
+        "short_let": 8,
+        "transit_major": 1,
+        "transit_minor": 8,
+        "tourist_strong": 9,
+        "tourist_weak": 43,
+        "bar_pub": 28,
+        "nightclub": 1,
+        "cafe": 104
+      },
+      "raw": {
+        "office": 63.75548388747514,
+        "student": 56.04998239397814,
+        "tourist": 181.25752623492932,
+        "nightlife": 15.150496708744091
+      }
+    },
+    {
+      "key": "lisboa/avenidas novas",
+      "name": "Avenidas Novas",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 23,
+        "university": 8,
+        "office": 160,
+        "hospital": 26,
+        "hotel_proper": 72,
+        "short_let": 7,
+        "transit_major": 5,
+        "transit_minor": 1,
+        "tourist_strong": 9,
+        "tourist_weak": 27,
+        "bar_pub": 9,
+        "nightclub": 0,
+        "cafe": 85
+      },
+      "raw": {
+        "office": 92.46083772029407,
+        "student": 38.047634721901005,
+        "tourist": 142.1585379949521,
+        "nightlife": 3.6406454852365786
+      }
+    },
+    {
+      "key": "lisboa/beato",
+      "name": "Beato",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 10,
+        "university": 0,
+        "office": 17,
+        "hospital": 3,
+        "hotel_proper": 2,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 1,
+        "tourist_weak": 5,
+        "bar_pub": 4,
+        "nightclub": 0,
+        "cafe": 13
+      },
+      "raw": {
+        "office": 10.786749915980224,
+        "student": 0.5076117607520105,
+        "tourist": 5.710632308460118,
+        "nightlife": 1.7766411626320366
+      }
+    },
+    {
+      "key": "lisboa/belem",
+      "name": "Belém",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 31,
+        "university": 3,
+        "office": 78,
+        "hospital": 8,
+        "hotel_proper": 6,
+        "short_let": 0,
+        "transit_major": 1,
+        "transit_minor": 17,
+        "tourist_strong": 25,
+        "tourist_weak": 45,
+        "bar_pub": 8,
+        "nightclub": 0,
+        "cafe": 45
+      },
+      "raw": {
+        "office": 24.15474299575537,
+        "student": 8.200225570866696,
+        "tourist": 26.4463468184296,
+        "nightlife": 1.7341866766183343
+      }
+    },
+    {
+      "key": "lisboa/benfica",
+      "name": "Benfica",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 22,
+        "university": 3,
+        "office": 43,
+        "hospital": 7,
+        "hotel_proper": 1,
+        "short_let": 0,
+        "transit_major": 1,
+        "transit_minor": 0,
+        "tourist_strong": 4,
+        "tourist_weak": 44,
+        "bar_pub": 4,
+        "nightclub": 0,
+        "cafe": 27
+      },
+      "raw": {
+        "office": 15.179191531488158,
+        "student": 9.093394740724069,
+        "tourist": 6.283479285127656,
+        "nightlife": 0.9884124718178335
+      }
+    },
+    {
+      "key": "lisboa/campo de ourique",
+      "name": "Campo de Ourique",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 20,
+        "university": 1,
+        "office": 46,
+        "hospital": 6,
+        "hotel_proper": 9,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 6,
+        "tourist_strong": 7,
+        "tourist_weak": 27,
+        "bar_pub": 9,
+        "nightclub": 0,
+        "cafe": 40
+      },
+      "raw": {
+        "office": 35.795768567719854,
+        "student": 7.470421266306752,
+        "tourist": 36.7295712260082,
+        "nightlife": 4.902463956013806
+      }
+    },
+    {
+      "key": "lisboa/campolide",
+      "name": "Campolide",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 11,
+        "university": 3,
+        "office": 73,
+        "hospital": 7,
+        "hotel_proper": 10,
+        "short_let": 1,
+        "transit_major": 1,
+        "transit_minor": 5,
+        "tourist_strong": 4,
+        "tourist_weak": 24,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 30
+      },
+      "raw": {
+        "office": 43.82744457314458,
+        "student": 14.937353712052564,
+        "tourist": 25.936241172052682,
+        "nightlife": 0.4202631671397425
+      }
+    },
+    {
+      "key": "lisboa/carnide",
+      "name": "Carnide",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 20,
+        "university": 1,
+        "office": 36,
+        "hospital": 7,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 3,
+        "transit_minor": 0,
+        "tourist_strong": 5,
+        "tourist_weak": 34,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 19
+      },
+      "raw": {
+        "office": 18.743137314477618,
+        "student": 4.998169950527364,
+        "tourist": 8.902990224376868,
+        "nightlife": 0.36444989222595364
+      }
+    },
+    {
+      "key": "lisboa/estrela",
+      "name": "Estrela",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 12,
+        "university": 3,
+        "office": 97,
+        "hospital": 6,
+        "hotel_proper": 19,
+        "short_let": 4,
+        "transit_major": 0,
+        "transit_minor": 41,
+        "tourist_strong": 24,
+        "tourist_weak": 60,
+        "bar_pub": 26,
+        "nightclub": 11,
+        "cafe": 54
+      },
+      "raw": {
+        "office": 45.20683232616632,
+        "student": 11.632603452176406,
+        "tourist": 58.069807297322924,
+        "nightlife": 21.298476673255678
+      }
+    },
+    {
+      "key": "lisboa/lumiar",
+      "name": "Lumiar",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 36,
+        "university": 3,
+        "office": 48,
+        "hospital": 15,
+        "hotel_proper": 1,
+        "short_let": 0,
+        "transit_major": 3,
+        "transit_minor": 0,
+        "tourist_strong": 4,
+        "tourist_weak": 47,
+        "bar_pub": 6,
+        "nightclub": 0,
+        "cafe": 51
+      },
+      "raw": {
+        "office": 18.719604178154437,
+        "student": 10.482978339766484,
+        "tourist": 7.370844145148309,
+        "nightlife": 1.6379653655885131
+      }
+    },
+    {
+      "key": "lisboa/marvila",
+      "name": "Marvila",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 22,
+        "university": 1,
+        "office": 37,
+        "hospital": 4,
+        "hotel_proper": 1,
+        "short_let": 1,
+        "transit_major": 2,
+        "transit_minor": 2,
+        "tourist_strong": 6,
+        "tourist_weak": 20,
+        "bar_pub": 7,
+        "nightclub": 2,
+        "cafe": 10
+      },
+      "raw": {
+        "office": 13.863999814115056,
+        "student": 3.6570983293449446,
+        "tourist": 7.943697190790248,
+        "nightlife": 3.709556707019974
+      }
+    },
+    {
+      "key": "lisboa/misericordia",
+      "name": "Misericórdia",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 9,
+        "university": 1,
+        "office": 50,
+        "hospital": 4,
+        "hotel_proper": 52,
+        "short_let": 16,
+        "transit_major": 4,
+        "transit_minor": 35,
+        "tourist_strong": 26,
+        "tourist_weak": 100,
+        "bar_pub": 141,
+        "nightclub": 8,
+        "cafe": 92
+      },
+      "raw": {
+        "office": 33.76991112189835,
+        "student": 5.889472499659073,
+        "tourist": 161.42017516267413,
+        "nightlife": 80.16976900338669
+      }
+    },
+    {
+      "key": "lisboa/olivais",
+      "name": "Olivais",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 25,
+        "university": 1,
+        "office": 32,
+        "hospital": 11,
+        "hotel_proper": 4,
+        "short_let": 2,
+        "transit_major": 3,
+        "transit_minor": 0,
+        "tourist_strong": 3,
+        "tourist_weak": 25,
+        "bar_pub": 2,
+        "nightclub": 0,
+        "cafe": 27
+      },
+      "raw": {
+        "office": 11.251991800817212,
+        "student": 3.516247437755379,
+        "tourist": 8.438993850612912,
+        "nightlife": 0.492274641285753
+      }
+    },
+    {
+      "key": "lisboa/parque das nacoes",
+      "name": "Parque das Nações",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 18,
+        "university": 1,
+        "office": 151,
+        "hospital": 18,
+        "hotel_proper": 13,
+        "short_let": 4,
+        "transit_major": 0,
+        "transit_minor": 3,
+        "tourist_strong": 18,
+        "tourist_weak": 11,
+        "bar_pub": 6,
+        "nightclub": 0,
+        "cafe": 53
+      },
+      "raw": {
+        "office": 64.77048858355435,
+        "student": 4.049227895554656,
+        "tourist": 37.18941298141829,
+        "nightlife": 1.801563258615419
+      }
+    },
+    {
+      "key": "lisboa/penha de franca",
+      "name": "Penha de França",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 15,
+        "university": 0,
+        "office": 18,
+        "hospital": 4,
+        "hotel_proper": 35,
+        "short_let": 3,
+        "transit_major": 0,
+        "transit_minor": 1,
+        "tourist_strong": 6,
+        "tourist_weak": 16,
+        "bar_pub": 3,
+        "nightclub": 1,
+        "cafe": 60
+      },
+      "raw": {
+        "office": 10.93280941086705,
+        "student": 0.7288539607244701,
+        "tourist": 74.58605531413743,
+        "nightlife": 2.793940182777135
+      }
+    },
+    {
+      "key": "lisboa/santa clara",
+      "name": "Santa Clara",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 14,
+        "university": 0,
+        "office": 5,
+        "hospital": 0,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 1,
+        "transit_minor": 0,
+        "tourist_strong": 1,
+        "tourist_weak": 17,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 12
+      },
+      "raw": {
+        "office": 2.7295520653988525,
+        "student": 0.611419662649343,
+        "tourist": 2.5111879001669446,
+        "nightlife": 0.38213728915583933
+      }
+    },
+    {
+      "key": "lisboa/santa maria maior",
+      "name": "Santa Maria Maior",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 8,
+        "university": 1,
+        "office": 129,
+        "hospital": 6,
+        "hotel_proper": 127,
+        "short_let": 25,
+        "transit_major": 7,
+        "transit_minor": 35,
+        "tourist_strong": 51,
+        "tourist_weak": 161,
+        "bar_pub": 45,
+        "nightclub": 2,
+        "cafe": 127
+      },
+      "raw": {
+        "office": 74.33460980170071,
+        "student": 4.978690144858094,
+        "tourist": 309.66991711189115,
+        "nightlife": 21.03266091288431
+      }
+    },
+    {
+      "key": "lisboa/santo antonio",
+      "name": "Santo António",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 15,
+        "university": 2,
+        "office": 199,
+        "hospital": 14,
+        "hotel_proper": 102,
+        "short_let": 15,
+        "transit_major": 5,
+        "transit_minor": 11,
+        "tourist_strong": 16,
+        "tourist_weak": 63,
+        "bar_pub": 31,
+        "nightclub": 5,
+        "cafe": 51
+      },
+      "raw": {
+        "office": 162.7924196018044,
+        "student": 14.070500588698673,
+        "tourist": 294.7442652388449,
+        "nightlife": 27.97739070543573
+      }
+    },
+    {
+      "key": "lisboa/sao domingos de benfica",
+      "name": "São Domingos de Benfica",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 22,
+        "university": 1,
+        "office": 77,
+        "hospital": 45,
+        "hotel_proper": 3,
+        "short_let": 1,
+        "transit_major": 3,
+        "transit_minor": 1,
+        "tourist_strong": 57,
+        "tourist_weak": 38,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 47
+      },
+      "raw": {
+        "office": 37.15733300865452,
+        "student": 4.709812599538547,
+        "tourist": 75.71409803971291,
+        "nightlife": 0.3377939364423138
+      }
+    },
+    {
+      "key": "lisboa/sao vicente",
+      "name": "São Vicente",
+      "municipality": "lisboa",
+      "counts": {
+        "school": 9,
+        "university": 0,
+        "office": 14,
+        "hospital": 1,
+        "hotel_proper": 14,
+        "short_let": 23,
+        "transit_major": 1,
+        "transit_minor": 16,
+        "tourist_strong": 4,
+        "tourist_weak": 29,
+        "bar_pub": 17,
+        "nightclub": 0,
+        "cafe": 30
+      },
+      "raw": {
+        "office": 9.934826395367624,
+        "student": 0.5109339289046207,
+        "tourist": 45.77116446437227,
+        "nightlife": 8.44460243606248
+      }
+    },
+    {
+      "key": "amadora/aguas livres",
+      "name": "Águas Livres",
+      "municipality": "amadora",
+      "counts": {
+        "school": 18,
+        "university": 0,
+        "office": 16,
+        "hospital": 4,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 0,
+        "tourist_weak": 35,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 21
+      },
+      "raw": {
+        "office": 10.7559531348009,
+        "student": 0.9680357821320809,
+        "tourist": 2.3528647482376965,
+        "nightlife": 0.4705729496475393
+      }
+    },
+    {
+      "key": "amadora/alfragide",
+      "name": "Alfragide",
+      "municipality": "amadora",
+      "counts": {
+        "school": 12,
+        "university": 0,
+        "office": 34,
+        "hospital": 7,
+        "hotel_proper": 2,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 0,
+        "tourist_weak": 23,
+        "bar_pub": 0,
+        "nightclub": 0,
+        "cafe": 6
+      },
+      "raw": {
+        "office": 21.455481517820015,
+        "student": 0.6058018310913887,
+        "tourist": 5.237661664644298,
+        "nightlife": 0
+      }
+    },
+    {
+      "key": "amadora/encosta do sol",
+      "name": "Encosta do Sol",
+      "municipality": "amadora",
+      "counts": {
+        "school": 14,
+        "university": 0,
+        "office": 2,
+        "hospital": 2,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 2,
+        "transit_minor": 0,
+        "tourist_strong": 1,
+        "tourist_weak": 0,
+        "bar_pub": 0,
+        "nightclub": 0,
+        "cafe": 23
+      },
+      "raw": {
+        "office": 1.1948019705168267,
+        "student": 0.669089103489423,
+        "tourist": 1.971423251352764,
+        "nightlife": 0
+      }
+    },
+    {
+      "key": "amadora/falagueira-venda nova",
+      "name": "Falagueira-Venda Nova",
+      "municipality": "amadora",
+      "counts": {
+        "school": 11,
+        "university": 0,
+        "office": 8,
+        "hospital": 1,
+        "hotel_proper": 0,
+        "short_let": 2,
+        "transit_major": 5,
+        "transit_minor": 1,
+        "tourist_strong": 0,
+        "tourist_weak": 21,
+        "bar_pub": 0,
+        "nightclub": 0,
+        "cafe": 11
+      },
+      "raw": {
+        "office": 4.732650861982497,
+        "student": 0.5205915948180747,
+        "tourist": 2.8987486529642794,
+        "nightlife": 0
+      }
+    },
+    {
+      "key": "amadora/mina de agua",
+      "name": "Mina de Água",
+      "municipality": "amadora",
+      "counts": {
+        "school": 25,
+        "university": 1,
+        "office": 11,
+        "hospital": 0,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 0,
+        "tourist_weak": 18,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 11
+      },
+      "raw": {
+        "office": 3.8668683030070947,
+        "student": 3.5153348209155406,
+        "tourist": 0.6327602677647973,
+        "nightlife": 0.24607343746408783
+      }
+    },
+    {
+      "key": "amadora/venteira",
+      "name": "Venteira",
+      "municipality": "amadora",
+      "counts": {
+        "school": 16,
+        "university": 3,
+        "office": 21,
+        "hospital": 6,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 3,
+        "tourist_weak": 4,
+        "bar_pub": 0,
+        "nightclub": 0,
+        "cafe": 18
+      },
+      "raw": {
+        "office": 9.113910341436636,
+        "student": 10.971412068167531,
+        "tourist": 3.4285662713023535,
+        "nightlife": 0
+      }
+    },
+    {
+      "key": "odivelas/odivelas",
+      "name": "Odivelas",
+      "municipality": "odivelas",
+      "counts": {
+        "school": 47,
+        "university": 0,
+        "office": 17,
+        "hospital": 6,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 2,
+        "transit_minor": 0,
+        "tourist_strong": 0,
+        "tourist_weak": 15,
+        "bar_pub": 1,
+        "nightclub": 1,
+        "cafe": 20
+      },
+      "raw": {
+        "office": 7.569023579712434,
+        "student": 1.6740899211599265,
+        "tourist": 1.0240443666669763,
+        "nightlife": 1.424757379710576
+      }
+    },
+    {
+      "key": "odivelas/uniao das freguesias de pontinha e famoes",
+      "name": "União das freguesias de Pontinha e Famões",
+      "municipality": "odivelas",
+      "counts": {
+        "school": 15,
+        "university": 0,
+        "office": 3,
+        "hospital": 1,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 0,
+        "tourist_weak": 12,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 15
+      },
+      "raw": {
+        "office": 0.9885175099757945,
+        "student": 0.3954070039903178,
+        "tourist": 0.3954070039903178,
+        "nightlife": 0.2306540856610187
+      }
+    },
+    {
+      "key": "odivelas/uniao das freguesias de povoa de santo adriao e olival basto",
+      "name": "União das freguesias de Póvoa de Santo Adrião e Olival Basto",
+      "municipality": "odivelas",
+      "counts": {
+        "school": 10,
+        "university": 0,
+        "office": 1,
+        "hospital": 2,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 2,
+        "tourist_weak": 4,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 9
+      },
+      "raw": {
+        "office": 0.6166615877942266,
+        "student": 0.49332927023538126,
+        "tourist": 3.329972574088824,
+        "nightlife": 0.43166311145595865
+      }
+    },
+    {
+      "key": "odivelas/uniao das freguesias de ramada e canecas",
+      "name": "União das freguesias de Ramada e Caneças",
+      "municipality": "odivelas",
+      "counts": {
+        "school": 24,
+        "university": 0,
+        "office": 16,
+        "hospital": 5,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 1,
+        "tourist_weak": 35,
+        "bar_pub": 2,
+        "nightclub": 0,
+        "cafe": 13
+      },
+      "raw": {
+        "office": 5.1481554431941845,
+        "student": 0.6177786531833022,
+        "tourist": 1.9305582911978192,
+        "nightlife": 0.4504636012794911
+      }
+    },
+    {
+      "key": "loures/bucelas",
+      "name": "Bucelas",
+      "municipality": "loures",
+      "counts": {
+        "school": 0,
+        "university": 0,
+        "office": 1,
+        "hospital": 0,
+        "hotel_proper": 0,
+        "short_let": 1,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 0,
+        "tourist_weak": 8,
+        "bar_pub": 0,
+        "nightclub": 0,
+        "cafe": 0
+      },
+      "raw": {
+        "office": 0.17157682182518097,
+        "student": 0,
+        "tourist": 0.20589218619021718,
+        "nightlife": 0
+      }
+    },
+    {
+      "key": "loures/fanhoes",
+      "name": "Fanhões",
+      "municipality": "loures",
+      "counts": {
+        "school": 2,
+        "university": 0,
+        "office": 2,
+        "hospital": 0,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 3,
+        "tourist_weak": 8,
+        "bar_pub": 0,
+        "nightclub": 0,
+        "cafe": 1
+      },
+      "raw": {
+        "office": 0.5864850460334295,
+        "student": 0.04691880368267436,
+        "tourist": 2.4339129410387326,
+        "nightlife": 0
+      }
+    },
+    {
+      "key": "loures/loures",
+      "name": "Loures",
+      "municipality": "loures",
+      "counts": {
+        "school": 22,
+        "university": 1,
+        "office": 16,
+        "hospital": 4,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 1,
+        "tourist_weak": 29,
+        "bar_pub": 3,
+        "nightclub": 0,
+        "cafe": 33
+      },
+      "raw": {
+        "office": 2.7930825939009174,
+        "student": 1.7037803822795596,
+        "tourist": 0.9426653754415597,
+        "nightlife": 0.36659209044949537
+      }
+    },
+    {
+      "key": "loures/lousa",
+      "name": "Lousa",
+      "municipality": "loures",
+      "counts": {
+        "school": 2,
+        "university": 0,
+        "office": 2,
+        "hospital": 0,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 1,
+        "tourist_weak": 9,
+        "bar_pub": 0,
+        "nightclub": 0,
+        "cafe": 2
+      },
+      "raw": {
+        "office": 0.4920365587888288,
+        "student": 0.0393629247031063,
+        "tourist": 0.836462149941009,
+        "nightlife": 0
+      }
+    },
+    {
+      "key": "loures/uniao das freguesias de camarate unhos e apelacao",
+      "name": "União das freguesias de Camarate, Unhos e Apelação",
+      "municipality": "loures",
+      "counts": {
+        "school": 21,
+        "university": 0,
+        "office": 6,
+        "hospital": 1,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 1,
+        "tourist_weak": 5,
+        "bar_pub": 4,
+        "nightclub": 0,
+        "cafe": 42
+      },
+      "raw": {
+        "office": 1.7642557188179933,
+        "student": 0.49399160126903807,
+        "tourist": 0.8821278594089966,
+        "nightlife": 0.8233193354483969
+      }
+    },
+    {
+      "key": "loures/uniao das freguesias de moscavide e portela",
+      "name": "União das freguesias de Moscavide e Portela",
+      "municipality": "loures",
+      "counts": {
+        "school": 11,
+        "university": 1,
+        "office": 11,
+        "hospital": 2,
+        "hotel_proper": 1,
+        "short_let": 1,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 0,
+        "tourist_weak": 3,
+        "bar_pub": 0,
+        "nightclub": 0,
+        "cafe": 23
+      },
+      "raw": {
+        "office": 8.547186575580612,
+        "student": 6.899910617377803,
+        "tourist": 2.8749627572407515,
+        "nightlife": 0
+      }
+    },
+    {
+      "key": "loures/uniao das freguesias de sacavem e prior velho",
+      "name": "União das freguesias de Sacavém e Prior Velho",
+      "municipality": "loures",
+      "counts": {
+        "school": 13,
+        "university": 0,
+        "office": 21,
+        "hospital": 4,
+        "hotel_proper": 2,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 2,
+        "tourist_weak": 1,
+        "bar_pub": 1,
+        "nightclub": 1,
+        "cafe": 28
+      },
+      "raw": {
+        "office": 10.653586541145643,
+        "student": 0.5276061906091176,
+        "tourist": 5.631181457462697,
+        "nightlife": 1.6234036634126696
+      }
+    },
+    {
+      "key": "loures/uniao das freguesias de santa iria de azoia sao joao da talha e bobadela",
+      "name": "União das freguesias de Santa Iria de Azoia, São João da Talha e Bobadela",
+      "municipality": "loures",
+      "counts": {
+        "school": 32,
+        "university": 1,
+        "office": 14,
+        "hospital": 4,
+        "hotel_proper": 1,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 2,
+        "tourist_strong": 2,
+        "tourist_weak": 9,
+        "bar_pub": 0,
+        "nightclub": 1,
+        "cafe": 15
+      },
+      "raw": {
+        "office": 3.3378872441258123,
+        "student": 2.5177206641406125,
+        "tourist": 2.1219426051942665,
+        "nightlife": 0.5960512935938951
+      }
+    },
+    {
+      "key": "loures/uniao das freguesias de santo antao e sao juliao do tojal",
+      "name": "União das freguesias de Santo Antão e São Julião do Tojal",
+      "municipality": "loures",
+      "counts": {
+        "school": 8,
+        "university": 0,
+        "office": 2,
+        "hospital": 2,
+        "hotel_proper": 2,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 1,
+        "tourist_weak": 19,
+        "bar_pub": 0,
+        "nightclub": 1,
+        "cafe": 9
+      },
+      "raw": {
+        "office": 0.3752404654719771,
+        "student": 0.12007694895103267,
+        "tourist": 1.9512504204542809,
+        "nightlife": 0.4690505818399714
+      }
+    },
+    {
+      "key": "loures/uniao das freguesias de santo antonio dos cavaleiros e frielas",
+      "name": "União das freguesias de Santo António dos Cavaleiros e Frielas",
+      "municipality": "loures",
+      "counts": {
+        "school": 14,
+        "university": 0,
+        "office": 19,
+        "hospital": 2,
+        "hotel_proper": 0,
+        "short_let": 1,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 1,
+        "tourist_weak": 3,
+        "bar_pub": 0,
+        "nightclub": 0,
+        "cafe": 20
+      },
+      "raw": {
+        "office": 6.265102009642247,
+        "student": 0.3693112763578587,
+        "tourist": 1.055175075308168,
+        "nightlife": 0
+      }
+    },
+    {
+      "key": "oeiras/barcarena",
+      "name": "Barcarena",
+      "municipality": "oeiras",
+      "counts": {
+        "school": 12,
+        "university": 3,
+        "office": 7,
+        "hospital": 2,
+        "hotel_proper": 2,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 3,
+        "tourist_weak": 19,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 8
+      },
+      "raw": {
+        "office": 2.3316111677578886,
+        "student": 8.313859249605272,
+        "tourist": 5.129544569067355,
+        "nightlife": 0.23316111677578888
+      }
+    },
+    {
+      "key": "oeiras/porto salvo",
+      "name": "Porto Salvo",
+      "municipality": "oeiras",
+      "counts": {
+        "school": 15,
+        "university": 1,
+        "office": 47,
+        "hospital": 1,
+        "hotel_proper": 4,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 0,
+        "tourist_weak": 8,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 12
+      },
+      "raw": {
+        "office": 17.344590512036692,
+        "student": 3.395111334271012,
+        "tourist": 4.723633160724886,
+        "nightlife": 0.2583236884771422
+      }
+    },
+    {
+      "key": "oeiras/uniao das freguesias de alges linda-a-velha e cruz quebrada-dafundo",
+      "name": "União das freguesias de Algés, Linda-a-Velha e Cruz Quebrada-Dafundo",
+      "municipality": "oeiras",
+      "counts": {
+        "school": 28,
+        "university": 2,
+        "office": 31,
+        "hospital": 8,
+        "hotel_proper": 2,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 5,
+        "tourist_strong": 3,
+        "tourist_weak": 18,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 35
+      },
+      "raw": {
+        "office": 11.56684209509202,
+        "student": 6.805780639176724,
+        "tourist": 5.70879625983574,
+        "nightlife": 0.26118675698594884
+      }
+    },
+    {
+      "key": "oeiras/uniao das freguesias de carnaxide e queijas",
+      "name": "União das freguesias de Carnaxide e Queijas",
+      "municipality": "oeiras",
+      "counts": {
+        "school": 22,
+        "university": 0,
+        "office": 33,
+        "hospital": 5,
+        "hotel_proper": 4,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 0,
+        "tourist_weak": 24,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 15
+      },
+      "raw": {
+        "office": 11.116216147498594,
+        "student": 0.5928648611999251,
+        "tourist": 4.85071250072666,
+        "nightlife": 0.23579852434087928
+      }
+    },
+    {
+      "key": "oeiras/uniao das freguesias de oeiras e sao juliao da barra paco de arcos e caxias",
+      "name": "União das freguesias de Oeiras e São Julião da Barra, Paço de Arcos e Caxias",
+      "municipality": "oeiras",
+      "counts": {
+        "school": 41,
+        "university": 1,
+        "office": 36,
+        "hospital": 7,
+        "hotel_proper": 5,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 4,
+        "tourist_strong": 5,
+        "tourist_weak": 63,
+        "bar_pub": 7,
+        "nightclub": 0,
+        "cafe": 65
+      },
+      "raw": {
+        "office": 9.786620309341542,
+        "student": 3.066474363593683,
+        "tourist": 9.188549068215114,
+        "nightlife": 1.332067764327043
+      }
+    },
+    {
+      "key": "cascais/alcabideche",
+      "name": "Alcabideche",
+      "municipality": "cascais",
+      "counts": {
+        "school": 34,
+        "university": 1,
+        "office": 31,
+        "hospital": 8,
+        "hotel_proper": 4,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 8,
+        "tourist_weak": 34,
+        "bar_pub": 6,
+        "nightclub": 0,
+        "cafe": 64
+      },
+      "raw": {
+        "office": 4.916567335487276,
+        "student": 1.7001807044007613,
+        "tourist": 5.614402699233857,
+        "nightlife": 0.6661155744853728
+      }
+    },
+    {
+      "key": "cascais/sao domingos de rana",
+      "name": "São Domingos de Rana",
+      "municipality": "cascais",
+      "counts": {
+        "school": 49,
+        "university": 1,
+        "office": 48,
+        "hospital": 3,
+        "hotel_proper": 1,
+        "short_let": 2,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 0,
+        "tourist_weak": 13,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 73
+      },
+      "raw": {
+        "office": 10.636689805485538,
+        "student": 2.6414446350289085,
+        "tourist": 1.1301482918328385,
+        "nightlife": 0.15511839299666408
+      }
+    },
+    {
+      "key": "cascais/uniao das freguesias de carcavelos e parede",
+      "name": "União das freguesias de Carcavelos e Parede",
+      "municipality": "cascais",
+      "counts": {
+        "school": 35,
+        "university": 1,
+        "office": 83,
+        "hospital": 23,
+        "hotel_proper": 8,
+        "short_let": 2,
+        "transit_major": 0,
+        "transit_minor": 3,
+        "tourist_strong": 0,
+        "tourist_weak": 27,
+        "bar_pub": 12,
+        "nightclub": 1,
+        "cafe": 88
+      },
+      "raw": {
+        "office": 29.145421658382777,
+        "student": 3.792416312175108,
+        "tourist": 9.656615609705137,
+        "nightlife": 3.827531278028581
+      }
+    },
+    {
+      "key": "cascais/uniao das freguesias de cascais e estoril",
+      "name": "União das freguesias de Cascais e Estoril",
+      "municipality": "cascais",
+      "counts": {
+        "school": 68,
+        "university": 3,
+        "office": 102,
+        "hospital": 15,
+        "hotel_proper": 58,
+        "short_let": 1,
+        "transit_major": 0,
+        "transit_minor": 5,
+        "tourist_strong": 23,
+        "tourist_weak": 78,
+        "bar_pub": 33,
+        "nightclub": 2,
+        "cafe": 96
+      },
+      "raw": {
+        "office": 18.889148001063894,
+        "student": 5.451926638738442,
+        "tourist": 44.38949780250016,
+        "nightlife": 5.203775086567603
+      }
+    },
+    {
+      "key": "almada/costa da caparica",
+      "name": "Costa da Caparica",
+      "municipality": "almada",
+      "counts": {
+        "school": 8,
+        "university": 0,
+        "office": 32,
+        "hospital": 3,
+        "hotel_proper": 19,
+        "short_let": 15,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 10,
+        "tourist_weak": 4,
+        "bar_pub": 20,
+        "nightclub": 0,
+        "cafe": 49
+      },
+      "raw": {
+        "office": 10.030313058498352,
+        "student": 0.20060626116996705,
+        "tourist": 27.7087398241017,
+        "nightlife": 4.388261963093028
+      }
+    },
+    {
+      "key": "almada/uniao das freguesias de almada cova da piedade pragal e cacilhas",
+      "name": "União das freguesias de Almada, Cova da Piedade, Pragal e Cacilhas",
+      "municipality": "almada",
+      "counts": {
+        "school": 47,
+        "university": 4,
+        "office": 158,
+        "hospital": 72,
+        "hotel_proper": 8,
+        "short_let": 4,
+        "transit_major": 0,
+        "transit_minor": 11,
+        "tourist_strong": 21,
+        "tourist_weak": 54,
+        "bar_pub": 41,
+        "nightclub": 1,
+        "cafe": 131
+      },
+      "raw": {
+        "office": 63.68845285236885,
+        "student": 14.414551101270316,
+        "tourist": 33.65813805805569,
+        "nightlife": 12.576453980974101
+      }
+    },
+    {
+      "key": "almada/uniao das freguesias de caparica e trafaria",
+      "name": "União das freguesias de Caparica e Trafaria",
+      "municipality": "almada",
+      "counts": {
+        "school": 23,
+        "university": 4,
+        "office": 19,
+        "hospital": 7,
+        "hotel_proper": 4,
+        "short_let": 1,
+        "transit_major": 0,
+        "transit_minor": 4,
+        "tourist_strong": 7,
+        "tourist_weak": 58,
+        "bar_pub": 7,
+        "nightclub": 0,
+        "cafe": 72
+      },
+      "raw": {
+        "office": 4.643048758863432,
+        "student": 8.269514210523083,
+        "tourist": 8.724044246917082,
+        "nightlife": 1.1974178378121483
+      }
+    },
+    {
+      "key": "almada/uniao das freguesias de charneca de caparica e sobreda",
+      "name": "União das freguesias de Charneca de Caparica e Sobreda",
+      "municipality": "almada",
+      "counts": {
+        "school": 35,
+        "university": 3,
+        "office": 57,
+        "hospital": 12,
+        "hotel_proper": 9,
+        "short_let": 3,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 2,
+        "tourist_weak": 29,
+        "bar_pub": 2,
+        "nightclub": 0,
+        "cafe": 81
+      },
+      "raw": {
+        "office": 10.575284751980822,
+        "student": 4.972239146545369,
+        "tourist": 6.697680342921187,
+        "nightlife": 0.25974383601356404
+      }
+    },
+    {
+      "key": "almada/uniao das freguesias de laranjeiro e feijo",
+      "name": "União das freguesias de Laranjeiro e Feijó",
+      "municipality": "almada",
+      "counts": {
+        "school": 31,
+        "university": 1,
+        "office": 80,
+        "hospital": 11,
+        "hotel_proper": 0,
+        "short_let": 2,
+        "transit_major": 0,
+        "transit_minor": 4,
+        "tourist_strong": 1,
+        "tourist_weak": 5,
+        "bar_pub": 6,
+        "nightclub": 1,
+        "cafe": 91
+      },
+      "raw": {
+        "office": 28.500085890036704,
+        "student": 3.733511251594808,
+        "tourist": 1.3537540797767433,
+        "nightlife": 2.3868821932905737
+      }
+    },
+    {
+      "key": "seixal/amora",
+      "name": "Amora",
+      "municipality": "seixal",
+      "counts": {
+        "school": 39,
+        "university": 1,
+        "office": 13,
+        "hospital": 9,
+        "hotel_proper": 2,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 1,
+        "tourist_strong": 1,
+        "tourist_weak": 5,
+        "bar_pub": 3,
+        "nightclub": 2,
+        "cafe": 34
+      },
+      "raw": {
+        "office": 2.6353775808117508,
+        "student": 2.2542614383558974,
+        "tourist": 1.824492171331212,
+        "nightlife": 1.4393216018279562
+      }
+    },
+    {
+      "key": "seixal/arrentela",
+      "name": "Arrentela",
+      "municipality": "seixal",
+      "counts": {
+        "school": 26,
+        "university": 0,
+        "office": 4,
+        "hospital": 4,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 1,
+        "tourist_strong": 4,
+        "tourist_weak": 9,
+        "bar_pub": 0,
+        "nightclub": 0,
+        "cafe": 29
+      },
+      "raw": {
+        "office": 1.2544548545560825,
+        "student": 0.652316524369163,
+        "tourist": 3.418389478665325,
+        "nightlife": 0
+      }
+    },
+    {
+      "key": "seixal/corroios",
+      "name": "Corroios",
+      "municipality": "seixal",
+      "counts": {
+        "school": 37,
+        "university": 0,
+        "office": 28,
+        "hospital": 8,
+        "hotel_proper": 1,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 3,
+        "tourist_strong": 1,
+        "tourist_weak": 6,
+        "bar_pub": 5,
+        "nightclub": 0,
+        "cafe": 39
+      },
+      "raw": {
+        "office": 6.72997205380615,
+        "student": 0.7114541885452215,
+        "tourist": 1.4661724831506255,
+        "nightlife": 0.8412465067257686
+      }
+    },
+    {
+      "key": "seixal/fernao ferro",
+      "name": "Fernão Ferro",
+      "municipality": "seixal",
+      "counts": {
+        "school": 13,
+        "university": 0,
+        "office": 3,
+        "hospital": 1,
+        "hotel_proper": 3,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 0,
+        "tourist_strong": 0,
+        "tourist_weak": 1,
+        "bar_pub": 1,
+        "nightclub": 0,
+        "cafe": 2
+      },
+      "raw": {
+        "office": 0.6135803326188578,
+        "student": 0.21270784864120404,
+        "tourist": 1.8611936756105354,
+        "nightlife": 0.1431687442777335
+      }
+    },
+    {
+      "key": "seixal/paio pires",
+      "name": "Paio Pires",
+      "municipality": "seixal",
+      "counts": {
+        "school": 7,
+        "university": 0,
+        "office": 35,
+        "hospital": 1,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 0,
+        "transit_minor": 1,
+        "tourist_strong": 0,
+        "tourist_weak": 5,
+        "bar_pub": 0,
+        "nightclub": 0,
+        "cafe": 13
+      },
+      "raw": {
+        "office": 8.747922615039103,
+        "student": 0.13996676184062568,
+        "tourist": 0.12497032307198719,
+        "nightlife": 0
+      }
+    },
+    {
+      "key": "seixal/seixal",
+      "name": "Seixal",
+      "municipality": "seixal",
+      "counts": {
+        "school": 5,
+        "university": 1,
+        "office": 5,
+        "hospital": 7,
+        "hotel_proper": 0,
+        "short_let": 0,
+        "transit_major": 1,
+        "transit_minor": 0,
+        "tourist_strong": 2,
+        "tourist_weak": 12,
+        "bar_pub": 6,
+        "nightclub": 0,
+        "cafe": 8
+      },
+      "raw": {
+        "office": 2.589561489193011,
+        "student": 4.350463301844259,
+        "tourist": 3.4182211657347747,
+        "nightlife": 2.1752316509221292
+      }
+    }
+  ]
+}

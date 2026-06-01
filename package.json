@@ -1,0 +1,41 @@
+{
+  "name": "groundwork-scaffold",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "data:lisbon": "node scripts/build-lisbon-parishes.mjs",
+    "data:greater": "node scripts/build-greater-lisbon-parishes.mjs && node scripts/build-greater-lisbon-points.mjs",
+    "data:pois": "node scripts/fetch-osm-pois.mjs && node scripts/derive-parish-mixes.mjs",
+    "data:events": "node scripts/fetch-events.mjs",
+    "data:refresh": "npm run data:pois && npm run data:events && echo '\\n✓ All data refreshed.'"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^3.0.80",
+    "@types/mapbox-gl": "^3.4.1",
+    "@vercel/analytics": "^2.0.1",
+    "ai": "^6.0.193",
+    "h3-js": "^4.4.0",
+    "lucide-react": "^1.16.0",
+    "mapbox-gl": "^3.23.1",
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-map-gl": "^8.1.1",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
