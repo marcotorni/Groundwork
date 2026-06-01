@@ -1,1 +1,2 @@
 @AGENTS.md
+@PROJECT_STATE.md
